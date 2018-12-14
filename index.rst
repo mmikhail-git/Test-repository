@@ -1,5 +1,10 @@
+
 index
 =======
+
+.. _myindex:
+yjdsq
+---------
 
 .. toctree::
    :maxdepth: 2
