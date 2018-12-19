@@ -164,16 +164,15 @@ ID        Тип транзакции
 8         Lease                
 9         Lease Cancel        
 10        Alias :ref:`Alias <tx-alias>`              
-11        Mass Transfer        
-12        Data                
+11        Mass Transfer   :ref:`Broadcast <tx-broadcast>`      
+12        Data           :ref:`Limit <tx-limit>`      
 13        Set Script           
 14        Set Sponsorship     
 ========= =================== 
 
 .. _tx-alias:
 
-10. Alias
-==========
+**10. Alias**
 
 .. code:: js
 
@@ -213,6 +212,10 @@ ID        Тип транзакции
     "alias":"dajzmj6gfuzmbfnhamsbuxivc"
    }
 
+.. _tx-broadcast:
+
+Broadcast
+-------------------
 
 POST /transactions/broadcast
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -246,6 +249,11 @@ POST /transactions/broadcast
     "signature":"4gQyPXzJFEzMbsCd9u5n3B2WauEc4172ssyrXCL882oNa8NfNihnpKianHXrHWnZs1RzDLbQ9rcRYnSqxKWfEPJG",
     "alias":"dajzmj6gfuzmbfnhamsbuxivc"
    }
+
+.. _tx-limit:
+
+Limit
+============
 
 GET /transactions/address/{address}/limit/{limit}?after={after}
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
