@@ -1,14 +1,52 @@
+Документация блокчейн-платформы Vostok
+=============================================
 
-index
-=======
+.. toctree::
+   :maxdepth: 1
+   :caption: Блокчейн-платформа Vostok
+   :name: overview
 
-.. _myindex:
-yjdsq
----------
+   overview/overview
+   overview/features
+   overview/links
+   overview/roadmap
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
-   :hidden:
+   :caption: Как устроена платформа
+   :name: how-the-platform-works
 
-   folder/infolder
+   how-the-platform-works/architecture
+   how-the-platform-works/components
+   how-the-platform-works/waves-ng-protocol
+   how-the-platform-works/consensus
+   how-the-platform-works/cryptography
+   how-the-platform-works/authorization
+   how-the-platform-works/data-structures
+   how-the-platform-works/smart-contracts
+   how-the-platform-works/anchoring
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Установка и настройка
+   :name: how-to-setup
+
+   how-to-setup/system-requirement
+   how-to-setup/install-node
+   how-to-setup/configuration-node
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Использование
+   :name: how-to-use
+
+   how-to-use/rest-api-node
+   how-to-use/smart-contracts
+   how-to-use/role-management
+
+.. toctree::
+   :maxdepth: 1
+   :caption: FAQ
+   :name: faq
+
+   faq

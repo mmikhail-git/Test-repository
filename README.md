@@ -1,1 +1,1 @@
-# Test-repository
+# Vostok docs

@@ -24,6 +24,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 
 import sphinx_rtd_theme
+from recommonmark.parser import CommonMarkParser
 
 # -- General configuration ------------------------------------------------
 
@@ -110,9 +111,12 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # documentation.
 #
 html_theme_options = {
+    'logo_only': True,
     'collapse_navigation': False,
     'sticky_navigation': False,
-    'navigation_depth': -1
+    'navigation_depth': 4,
+    'display_version': False,
+    'includehidden': False
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -122,6 +126,8 @@ html_static_path = ['_static']
 
 def setup(app):
     app.add_stylesheet('css/custom.css')
+
+html_logo = 'img/logo-1.png'
 
 # -- Options for HTMLHelp output ------------------------------------------
 
