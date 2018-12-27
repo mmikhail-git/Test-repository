@@ -24,6 +24,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 
 import sphinx_rtd_theme
+from recommonmark.parser import CommonMarkParser
 
 # -- General configuration ------------------------------------------------
 
@@ -44,6 +45,15 @@ extensions = ['sphinx.ext.autodoc',
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
+
+# recommonmark is a python utility that allows markdown to be used within
+# Sphinx projects.
+# Installed version as per directive in docs/requirement.txt
+from recommonmark.parser import CommonMarkParser
+
+source_parsers = {
+    '.md': CommonMarkParser,
+}
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -126,12 +136,37 @@ htmlhelp_basename = 'vostok-docs'
 
 
 
+# -- Options for manual page output ---------------------------------------
+
+# One entry per manual page. List of tuples
+# (source start file, name, description, authors, manual section).
+man_pages = [
+    (master_doc, '1', u'1',
+     [author], 1)
+]
+
+
+# -- Options for Epub output ----------------------------------------------
+
+# Bibliographic Dublin Core info.
+epub_title = project
+epub_author = author
+epub_publisher = author
+epub_copyright = copyright
+
+# The unique identifier of the text. This can be a ISBN number
+# or the project homepage.
+#
+# epub_identifier = ''
+
+# A unique identification for the text.
+#
+# epub_uid = ''
+
+# A list of files that should not be packed into the epub file.
+epub_exclude_files = ['search.html']
+
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}
-
-
-
-
-
