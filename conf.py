@@ -181,33 +181,27 @@ man_pages = [
 #
 # man_show_urls = False
 
+# -- Options for LaTeX output ---------------------------------------------
 
-# -- Options for Texinfo output -------------------------------------------
+latex_elements = {
+    # The paper size ('letterpaper' or 'a4paper').
+    #
+    # 'papersize': 'letterpaper',
 
-# Grouping the document tree into Texinfo files. List of tuples
-# (source start file, target name, title, author,
-#  dir menu entry, description, category)
-texinfo_documents = [
-    (master_doc, 'test', u'test Documentation',
-     author, 'test', 'One line description of project.',
-     'Miscellaneous'),
-]
+    # The font size ('10pt', '11pt' or '12pt').
+    #
+    # 'pointsize': '10pt',
 
-# Documents to append as an appendix to all manuals.
-#
-# texinfo_appendices = []
+    # Additional stuff for the LaTeX preamble.
+    #
+    # 'preamble': '',
 
-# If false, no module index is generated.
-#
-# texinfo_domain_indices = True
+    # Latex figure (float) alignment
+    #
+    # 'figure_align': 'htbp',
+}
 
-# How to display URL addresses: 'footnote', 'no', or 'inline'.
-#
-# texinfo_show_urls = 'footnote'
 
-# If true, do not generate a @detailmenu in the "Top" node's menu.
-#
-# texinfo_no_detailmenu = False
 
 
 
