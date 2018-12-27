@@ -1,1 +1,0 @@
-# Vostok docs
