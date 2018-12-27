@@ -135,35 +135,6 @@ html_logo = 'img/logo-1.png'
 htmlhelp_basename = 'vostok-docs'
 
 
-# Grouping the document tree into LaTeX files. List of tuples
-# (source start file, target name, title,
-#  author, documentclass [howto, manual, or own class]).
-
-
-# The name of an image file (relative to this directory) to place at the top of
-# the title page.
-#
-# latex_logo = None
-
-# If true, show page references after internal links.
-#
-# latex_show_pagerefs = False
-
-# If true, show URL addresses after external links.
-#
-# latex_show_urls = False
-
-# Documents to append as an appendix to all manuals.
-#
-# latex_appendices = []
-
-# If false, no module index is generated.
-#
-# latex_domain_indices = True
-
-
-
-
 
 # -- Options for manual page output ---------------------------------------
 
