@@ -1,1 +1,1 @@
-install guzzle_sphinx_theme
+guzzle_sphinx_theme>=0.7.8,<0.8.0
