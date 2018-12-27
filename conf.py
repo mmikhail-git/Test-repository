@@ -136,19 +136,6 @@ htmlhelp_basename = 'vostok-docs'
 
 
 
-# -- Options for manual page output ---------------------------------------
-
-# One entry per manual page. List of tuples
-# (source start file, name, description, authors, manual section).
-man_pages = [
-    (master_doc, 'test', u'test Documentation',
-     [author], 1)
-]
-
-# If true, show URL addresses after external links.
-#
-# man_show_urls = False
-
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
