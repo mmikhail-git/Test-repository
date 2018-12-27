@@ -17,6 +17,13 @@ exclude_patterns = ['_build']
 
 html_show_sourcelink = False
 
+html_sidebars = {
+    '**': ['logo-text.html',
+           'globaltoc.html',
+           'localtoc.html',
+           'searchbox.html']
+}
+
 import guzzle_sphinx_theme
 
 
