@@ -141,10 +141,7 @@ htmlhelp_basename = 'vostok-docs'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-    (master_doc, 'test.tex', u'test Documentation',
-     u'test', 'manual'),
-]
+
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
@@ -166,6 +163,56 @@ latex_documents = [
 # If false, no module index is generated.
 #
 # latex_domain_indices = True
+
+
+# -- Options for LaTeX output ---------------------------------------------
+
+latex_elements = {
+    # The paper size ('letterpaper' or 'a4paper').
+    #
+    # 'papersize': 'letterpaper',
+
+    # The font size ('10pt', '11pt' or '12pt').
+    #
+    # 'pointsize': '10pt',
+
+    # Additional stuff for the LaTeX preamble.
+    #
+    # 'preamble': '',
+
+    # Latex figure (float) alignment
+    #
+    # 'figure_align': 'htbp',
+}
+
+
+# -- Options for Texinfo output -------------------------------------------
+
+# Grouping the document tree into Texinfo files. List of tuples
+# (source start file, target name, title, author,
+#  dir menu entry, description, category)
+texinfo_documents = [
+    (master_doc, 'test', u'test Documentation',
+     author, 'test', 'One line description of project.',
+     'Miscellaneous'),
+]
+
+# Documents to append as an appendix to all manuals.
+#
+# texinfo_appendices = []
+
+# If false, no module index is generated.
+#
+# texinfo_domain_indices = True
+
+# How to display URL addresses: 'footnote', 'no', or 'inline'.
+#
+# texinfo_show_urls = 'footnote'
+
+# If true, do not generate a @detailmenu in the "Top" node's menu.
+#
+# texinfo_no_detailmenu = False
+
 
 
 # -- Options for manual page output ---------------------------------------
