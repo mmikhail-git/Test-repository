@@ -1,1 +1,1 @@
-$ pip install guzzle_sphinx_theme
+install guzzle_sphinx_theme
