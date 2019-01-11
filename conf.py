@@ -49,7 +49,6 @@ templates_path = ['_templates']
 # recommonmark is a python utility that allows markdown to be used within
 # Sphinx projects.
 # Installed version as per directive in docs/requirement.txt
-from recommonmark.parser import CommonMarkParser
 
 source_parsers = {
     '.md': CommonMarkParser,
@@ -101,8 +100,18 @@ todo_include_todos = True
 
 # -- Options for HTML output ----------------------------------------------
 
-html_theme = 'sphinx_rtd_theme'                                              
+html_theme = 'sphinx_rtd_theme'   
+
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]  
+
+html_theme_options = {
+    'logo_only': True,
+    'collapse_navigation': False,
+    'sticky_navigation': False,
+    'navigation_depth': 4,
+    'display_version': False,
+    'includehidden': False
+}
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'                           
@@ -135,14 +144,7 @@ else:
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-html_theme_options = {
-    'logo_only': True,
-    'collapse_navigation': False,
-    'sticky_navigation': False,
-    'navigation_depth': 4,
-    'display_version': False,
-    'includehidden': False
-}
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
