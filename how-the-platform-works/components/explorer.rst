@@ -123,12 +123,12 @@
 .. raw:: html
 
     <br>
-    <table width="100%">
+    <table width="100%" class="colwidths-given docutils" border="1">
         <tr>
-            <td>Поле</td>
-            <td>Описание</td>
-            <td>Тип транзакции</td>
-            <td>Значение</td>
+            <th class="head">Поле</th>
+            <th class="head">Описание</th>
+            <th class="head">Тип транзакции</th>
+            <th class="head">Значение</th>
         </tr>
         <tr>
             <td rowspan="6">Роль</td>
@@ -147,34 +147,34 @@
             <td>Эмитент</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
+            <td>1</td>
+            <td>2</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
+            <td>1</td>
+            <td>2</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
+            <td>1</td>
+            <td>2</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
         </tr>
         <tr>
             <td>Разрешения </td>
