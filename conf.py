@@ -100,10 +100,24 @@ todo_include_todos = True
 
 # -- Options for HTML output ----------------------------------------------
 
-html_theme = 'sphinx_rtd_theme'   
 
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]  
 
+
+
+
+
+
+# The theme to use for HTML and HTML Help pages.  See the documentation for
+# a list of builtin themes.
+#
+html_theme = 'sphinx_rtd_theme'
+
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+
+# Theme options are theme-specific and customize the look and feel of a theme
+# further.  For a list of options available for each theme, see the
+# documentation.
+#
 html_theme_options = {
     'logo_only': True,
     'collapse_navigation': False,
@@ -113,47 +127,14 @@ html_theme_options = {
     'includehidden': False
 }
 
-# on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'                           
-
-if not on_rtd:  # only import and set the theme if we're building docs locally                                                
-                 
-    # Override default css to get a larger width for local build                 
-    def setup(app):                                                              
-        #app.add_javascript("custom.js")                                         
-        app.add_stylesheet('theme_override.css')                                
-else:                                                                            
-    # Override default css to get a larger width for ReadTheDoc build            
-    html_context = {                                                             
-        'css_files': [                                                           
- #           'https://media.readthedocs.org/css/sphinx_rtd_theme.css',            
- #           'https://media.readthedocs.org/css/readthedocs-doc-embed.css',       
-             '_static/theme_override.css'
-        ],                                                                       
-    }
-
-
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-#
-# html_theme = 'sphinx_rtd_theme'
-
-# html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-
-# Theme options are theme-specific and customize the look and feel of a theme
-# further.  For a list of options available for each theme, see the
-# documentation.
-#
-
-
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-#def setup(app):
-#    #app.add_stylesheet('css/custom.css')
-#    app.add_stylesheet('_static/theme_override.css')
+def setup(app):
+    #app.add_stylesheet('css/custom.css')
+    app.add_stylesheet('_static/theme_override.css')
 
 html_logo = 'img/logo-1.png'
 
