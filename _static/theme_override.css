@@ -2,7 +2,7 @@
     max-width: 1050px
  }
 
- p.caption {
+ div.wy-menu p.caption {
     margin-top: 10px;
     margin-left: -10px;
     color: white;
