@@ -101,14 +101,14 @@ todo_include_todos = True
 
 # -- Options for HTML output ----------------------------------------------
 
+html_theme = 'sphinx_rtd_theme'                                              
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]  
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'                           
-                                                                                 
-if not on_rtd:  # only import and set the theme if we're building docs locally   
-    import sphinx_rtd_theme                                                      
-    html_theme = 'sphinx_rtd_theme'                                              
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]                   
+
+if not on_rtd:  # only import and set the theme if we're building docs locally                                                
+                 
     # Override default css to get a larger width for local build                 
     def setup(app):                                                              
         #app.add_javascript("custom.js")                                         
