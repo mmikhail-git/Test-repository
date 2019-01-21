@@ -21,6 +21,7 @@
 
 .wy-side-nav-search {
    background-color: white;
+   padding-bottom: 0;
 }
 
 .wy-side-nav-search input[type=text] {
