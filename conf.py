@@ -136,7 +136,7 @@ def setup(app):
     #app.add_stylesheet('css/custom.css')
     app.add_stylesheet('theme_override.css')
 
-#html_logo = 'img/logo-1.png'
+html_logo = ''
 
 # -- Options for HTMLHelp output ------------------------------------------
 
