@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 12:53+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 7aad9794bc844642ad55ea768bfbb190
+#: ../../how-to-setup/install-client.rst:4
+msgid "Установка клиента"
+msgstr ""
+
+# 406b553a4e884f7dbe123004f2de2b4e
+#: ../../how-to-setup/install-client.rst:6
+msgid ""
+"**Последовательность действий для установки клиентской части приложения и"
+" необходимых для его запуска сервисов**"
+msgstr ""
+
+# 7515e2ad693e4626949ed105dbba9f3c
+#: ../../how-to-setup/install-client.rst:18
+msgid ""
+"Скачать и установить дистрибутив `Docker CE "
+"<https://docs.docker.com/install/>`_. Для скачивания потребуется "
+"регистрация на сайте."
+msgstr ""
+
+# d7fb1ede08ed4b1288c186cab7474959
+#: ../../how-to-setup/install-client.rst
+msgid ""
+"1.1. При возникновении следующего окна с ошибкой установки необходимо "
+"включить аппаратную поддержку виртуализации в BIOS:"
+msgstr ""
+
+# 25f62d9333ed4b16ba7806db5f894f04
+#: ../../how-to-setup/install-client.rst
+msgid ""
+"1.2. После установки необходимо убедиться что успешно установились "
+"приложения `Docker CE <https://docs.docker.com/install/>`_ и `Docker-"
+"compose <https://docs.docker.com/compose/install/>`_ (часть дистрибутива "
+"Docker CE):"
+msgstr ""
+
+# 4ea4f1b87fcf4d929ee844eacdc62e19
+#: ../../how-to-setup/install-client.rst:20
+msgid ""
+"Скачать и разархивировать файл `frontend-deployment.zip "
+"<https://github.com/vostokplatform/Vostok-Releases/releases>`_"
+msgstr ""
+
+# e0de1a2b913647798585c86b8ff343e5
+#: ../../how-to-setup/install-client.rst:21
+msgid ""
+"В конфигурационном файле приложения ``frontend-deployment/config/nginx-"
+"proxy.env`` указать путь до REST API и hostname ноды"
+msgstr ""
+
+# 7430359a860348dfb6ee8f33c4d2ef2a
+#: ../../how-to-setup/install-client.rst:30
+msgid "Запустить скрипт развертывания командой ``bash ./deploy.sh``"
+msgstr ""
+
+# 643ab51034304c1d8386876c893cc081
+#: ../../how-to-setup/install-client.rst:31
+msgid ""
+"Открыть браузер и перейдя по адресу ``localhost`` убедиться что клиент "
+"системы успешно развернут."
+msgstr ""
+
+# 56c33a7adc3b4853a89169c13065a497
+#: ../../how-to-setup/install-client.rst:33
+msgid ""
+"Ознакомиться с подробным описанием компонентов установленного приложение "
+"возможно в разделе :ref:`\"Описание клиента\" <client>`."
+msgstr ""
+

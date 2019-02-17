@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 12:53+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 90bb73ffc784442bae94c11a87bd7a43
+#: ../../how-to-use/rest-api-node/assets.rst:2
+msgid "Assets"
+msgstr ""
+
+# 6336f9f4e4d5458895fa021dd6a57c08
+#: ../../how-to-use/rest-api-node/assets.rst:4
+msgid ""
+"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
+"node`."
+msgstr ""
+
+# 0cccaaf8315c447999032d2ea4f9fc07
+#: ../../how-to-use/rest-api-node/assets.rst:7
+msgid "GET /assets/balance/{address}"
+msgstr ""
+
+# 7b8b934638d74023ad11ec218c5fc929
+#: ../../how-to-use/rest-api-node/assets.rst:9
+msgid "Возвращает баланс всех ассетов адресата {address}."
+msgstr ""
+
+# d0cdfaf2380449f1bf690723128cea18
+# 7aea6523e3c54f87aadd15613de3d855
+# 3622df7085bf42b1bde593f1da323743
+# d98c4d2ca1b34e00b0aa4367fddae128
+#: ../../how-to-use/rest-api-node/assets.rst:11
+#: ../../how-to-use/rest-api-node/assets.rst:60
+#: ../../how-to-use/rest-api-node/assets.rst:75
+#: ../../how-to-use/rest-api-node/assets.rst:103
+msgid "**Ответ метода:**"
+msgstr ""
+
+# 2e357cc851914f1793d65f0422ebf9ab
+#: ../../how-to-use/rest-api-node/assets.rst:43
+msgid "**Параметры метода:**"
+msgstr ""
+
+# 2b71918ad1dd49478f9e88dfb94ad1e0
+#: ../../how-to-use/rest-api-node/assets.rst:45
+msgid "\"address\" -  адрес участника"
+msgstr ""
+
+# 8a82ddde231f45059a5388085042193b
+#: ../../how-to-use/rest-api-node/assets.rst:46
+msgid "\"balances\" - объект с балансами участника"
+msgstr ""
+
+# 23d96ebee7ac413ba93f00fce8c9ba79
+#: ../../how-to-use/rest-api-node/assets.rst:47
+msgid "\"assetId\" - ассет ID"
+msgstr ""
+
+# dec53de17c9b402797a123e17022b30d
+#: ../../how-to-use/rest-api-node/assets.rst:48
+msgid "\"balance\" - баланс ассета"
+msgstr ""
+
+# a57864ac237a43548de7b1a202b7e5c0
+#: ../../how-to-use/rest-api-node/assets.rst:49
+msgid "\"quantity\" - кол-во выпущенных ассетов"
+msgstr ""
+
+# 1aae49ee3d17415d8cd5c3101d3ce9e9
+#: ../../how-to-use/rest-api-node/assets.rst:50
+msgid "\"reissuable\" - признак может быть ассет перевыпущен или нет"
+msgstr ""
+
+# c4bb8776f4464d31b4aca40326a929d0
+#: ../../how-to-use/rest-api-node/assets.rst:51
+msgid "\"issueTransaction\" - транзакция создания ассета"
+msgstr ""
+
+# d3ddbaddd8874af29d960a9d2bde45e0
+#: ../../how-to-use/rest-api-node/assets.rst:52
+msgid ""
+"\"minSponsoredAssetFee\" - минимальное значение коммиссии для спонсорских"
+" транзакций"
+msgstr ""
+
+# b1b0491f555c43c5b2ca2ca0affd6ed3
+#: ../../how-to-use/rest-api-node/assets.rst:53
+msgid ""
+"\"sponsorBalance\" - средства, выделенные для оплаты транзакций по "
+"спонсируемым ассетам"
+msgstr ""
+
+# 41b6797aa2e54eb8bceb011d14b3b974
+#: ../../how-to-use/rest-api-node/assets.rst:56
+msgid "GET /assets/balance/{address}/{assetId}"
+msgstr ""
+
+# d56f101b0fd244889fc5459da567f6e0
+#: ../../how-to-use/rest-api-node/assets.rst:58
+msgid "Возвращает баланс адресата {address} по ассету {assetId}."
+msgstr ""
+
+# 251989b416e0469ba611f9f95373dd83
+#: ../../how-to-use/rest-api-node/assets.rst:71
+msgid "GET /assets/details/{assetId}"
+msgstr ""
+
+# fe75121349564855a5570116d7d2c737
+#: ../../how-to-use/rest-api-node/assets.rst:73
+msgid "Возвращает описание ассета {assetId}."
+msgstr ""
+
+# 91707ba17dc94cb09ab8046064a4a394
+#: ../../how-to-use/rest-api-node/assets.rst:99
+msgid "GET /assets/{assetId}/distribution"
+msgstr ""
+
+# 81a8c0b3541c494886f448d3f2918c5f
+#: ../../how-to-use/rest-api-node/assets.rst:101
+msgid "Возвращает распределение ассета {assetId}."
+msgstr ""
+

@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 12:53+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 2c0ea856461e4a91b12c8ce7eb4406b9
+#: ../../how-to-use/rest-api-node/permissions.rst:2
+msgid "Permissions"
+msgstr ""
+
+# 74642d601c884ece8d5fbcc890117c58
+#: ../../how-to-use/rest-api-node/permissions.rst:4
+msgid ""
+"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
+"node`."
+msgstr ""
+
+# 16d2034c4c57435aa695879b8cb327e3
+#: ../../how-to-use/rest-api-node/permissions.rst:7
+msgid "GET /permissions/{address}"
+msgstr ""
+
+# 7da0ced787c2499eaa04254e786ca3e6
+#: ../../how-to-use/rest-api-node/permissions.rst:8
+msgid ""
+"Возвращает роли (permissions), назначенные на указанный адрес {address}, "
+"действительные на текущий момент времени."
+msgstr ""
+
+# 7ead4279ce564a80b328dbb835d434a8
+# e3004fcc78fd4568b0087bf002b7e84c
+# 68e1e429cf5a4ef7843b14f422a83273
+#: ../../how-to-use/rest-api-node/permissions.rst:10
+#: ../../how-to-use/rest-api-node/permissions.rst:31
+#: ../../how-to-use/rest-api-node/permissions.rst:64
+msgid "**Ответ метода:**"
+msgstr ""
+
+# d5f21292a9594cfe9d00ec2aef44ceaf
+#: ../../how-to-use/rest-api-node/permissions.rst:28
+msgid "GET /permissions/{address}/at/{timestamp}"
+msgstr ""
+
+# 0ce3b24e2d4a4a0b8170407be03a0f51
+#: ../../how-to-use/rest-api-node/permissions.rst:29
+msgid ""
+"Возвращает роли (permissions), назначенные на указанный адрес {address}, "
+"действительные на момент времени {timestamp}."
+msgstr ""
+
+# fabb2f5db4404c7baaa6a567b6e5fc45
+#: ../../how-to-use/rest-api-node/permissions.rst:50
+msgid "POST /permissions/addresses"
+msgstr ""
+
+# 11b08cbfb634491ea1d7e3e2307d8be8
+#: ../../how-to-use/rest-api-node/permissions.rst:51
+msgid ""
+"Возвращает роли (permissions), назначенные на список адресов, "
+"действительные на текущий момент времени."
+msgstr ""
+
+# 73970b46324d42ca9e40c51d0abebd14
+#: ../../how-to-use/rest-api-node/permissions.rst:53
+msgid "**Запрос метода:**"
+msgstr ""
+

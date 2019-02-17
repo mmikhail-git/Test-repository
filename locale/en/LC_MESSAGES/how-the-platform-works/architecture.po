@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 12:53+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# a76cae5af9d143d6a09697baa42bd743
+#: ../../how-the-platform-works/architecture.rst:2
+msgid "Архитектура"
+msgstr ""
+
+# c7ceeaf991304b1cbc5aba2728c2bd69
+#: ../../how-the-platform-works/architecture.rst:4
+msgid ""
+"Платформа Vostok построена на базе технологии распределенного реестра. "
+"Это позволяет добиться согласованности и доступности данных, а также "
+"устойчивости к злонамеренному изменению информации. Vostok использует "
+"язык программирования Scala и имеет модульную архитектуру, что позволяет "
+"гибко подстраивать приложение под потребности бизнеса."
+msgstr ""
+
+# 58701cc1e0434b628adcacaf3865456e
+#: ../../how-the-platform-works/architecture.rst:8
+msgid ""
+"Наша платформа поддерживает алгоритмы консенсуса Proof-of-Stake и Proof-"
+"of-Authority, подробнее в разделе :ref:`Консенсус <consensus>`. Также в "
+"Vostok реализован механизм анкоринга сетей, подробнее в разделе "
+":ref:`Анкоринг <anchoring>`."
+msgstr ""
+
+# cda92a4691af4cc9beca4369e4c444c8
+#: ../../how-the-platform-works/architecture.rst:11
+msgid ""
+"Анкоринг позволяет создать конфигурацию сети, использующую сильные "
+"стороны обоих алгоритмов консенсуса. Например, основной блокчейн Vostok, "
+"базируется на алгоритме консенсуса Proof-of-Stake, так как поддерживается"
+" независимыми участниками. В тоже время корпоративные сайдчейны, в "
+"которых нет необходимости стимуляции майнеров за счёт комиссий за "
+"транзакции, могут использовать алгоритм Proof-of-Authority. Сайдчейны "
+"встраиваются в основной блокчейн с помощью механизма анкоринга (помещая "
+"криптографические доказательства транзакций в основную блокчейн-сеть)."
+msgstr ""
+
+# a6abc31e9386477a8e5daebfa9a85ada
+#: ../../how-the-platform-works/architecture.rst:17
+msgid ""
+"Топология сети, включающая основную цепочку и сайдчейны, представлена на "
+"схеме"
+msgstr ""
+
+# 70cdfde491c346d09996a1e50f33a72c
+#: ../../how-the-platform-works/architecture.rst:21
+msgid "**Архитектура ноды**"
+msgstr ""
+
+# 4277c8c18b09420d866895465f0f818a
+#: ../../how-the-platform-works/architecture.rst:25
+msgid ""
+"Node API – интерфейс REST API ноды, позволяющий получать данные из "
+"блокчейна, подписывать и отправлять транзакции;"
+msgstr ""
+
+# a9f0f1bfda7a4852ae2fe0f1fb2ec692
+#: ../../how-the-platform-works/architecture.rst:26
+msgid ""
+"Node storage – компонент системы, обеспечивающий хранение полного журнала"
+" транзакций и состояния блокчейна;"
+msgstr ""
+
+# b6deccce169a4fce8991981b85a4288d
+#: ../../how-the-platform-works/architecture.rst:27
+msgid ""
+"Unconfirmed transaction pool – компонент, обеспечивающий хранение "
+"неподтвержденных транзакций до момента их проверки и отправки в блокчейн;"
+msgstr ""
+
+# d176c39200474276b5499254c6815538
+#: ../../how-the-platform-works/architecture.rst:28
+msgid ""
+"Consensus and cryptolibraries – компоненты, отвечающие за механизм "
+"достижения согласия между узлами, а также за криптографические алгоритмы;"
+msgstr ""
+
+# 3aa80c87c5c94f2b874fd0339b899caa
+#: ../../how-the-platform-works/architecture.rst:29
+msgid ""
+"KeyStore - хранилище приватных ключей, которое используется нодой для "
+"валидации, подписания и шифрования транзакций;"
+msgstr ""
+
+# c1b93a7b3a324d688d81805a393b7aca
+#: ../../how-the-platform-works/architecture.rst:30
+msgid ""
+"Miner – компонент, отвечающий за формирование блоков транзакций для "
+"записи в блокчейн;"
+msgstr ""
+
+# bd165f0975264d58be4cd2718dd525e9
+#: ../../how-the-platform-works/architecture.rst:31
+msgid ""
+"Network layer – слой логики, обеспечивающий сетевой протокол "
+"взаимодействия нод;"
+msgstr ""
+
+# 449460f77c1746199796224d689f9760
+#: ../../how-the-platform-works/architecture.rst:32
+msgid ""
+"Smart-contract environment – среда для выполнения Тьюринг-полных "
+"смарт-контрактов;"
+msgstr ""
+
+# 04f65ae1dcae4fbcab72eba426f8106a
+#: ../../how-the-platform-works/architecture.rst:33
+msgid "Validation logic – слой логики, содержащий правила проверки транзакций;"
+msgstr ""
+
+# 0f0310fc633646c780d4b70feb6ac8bc
+#: ../../how-the-platform-works/architecture.rst:34
+msgid "Config – конфигурационные параметры ноды;"
+msgstr ""
+
+# a8dde709f9d044bc97190aa05428532f
+#: ../../how-the-platform-works/architecture.rst:35
+msgid ""
+"Monitoring Service – сервис мониторинга, включающий базу для хранения "
+"временных рядов с данными и метриками приложения."
+msgstr ""
+
+# 974849415c8e46c4bf7a4ff6f1487e49
+#: ../../how-the-platform-works/architecture.rst:37
+msgid "**Дополнительные сервисы**"
+msgstr ""
+
+# 2818713f1b9445a0a50cfac1bd292c0e
+#: ../../how-the-platform-works/architecture.rst:41
+msgid ""
+"Vostok corporate client – корпоративный клиент для управления сетью и "
+"взаимодействия с блокчейном. Подробнее в разделе :ref:`Общее описание "
+"клиента <client>`"
+msgstr ""
+
+# 3106088c430148378ef3f35a3164a1b7
+#: ../../how-the-platform-works/architecture.rst:42
+msgid ""
+"Data service – сервис, агрегирующий данные из блокчейна и предоставляющий"
+" возможность построения различных аналитик посредством SQL запросов;"
+msgstr ""
+
+# 9bd451d4e3b342dd88aa3cc6a5870740
+#: ../../how-the-platform-works/architecture.rst:43
+msgid ""
+"Node tools – набор утилит, автоматизирующих процессы управления ключами в"
+" keystore ноды, генерации транзакций и подписания genesis-блока;"
+msgstr ""
+
+# ae896f780fff440ca78615682fd26317
+#: ../../how-the-platform-works/architecture.rst:44
+msgid "Authorization service – единый сервис авторизации для компонентов системы;"
+msgstr ""
+
+# fabcaa2691964a6c9571db40e2460bb1
+#: ../../how-the-platform-works/architecture.rst:45
+msgid ""
+"Docker registry – сервис для хранения и управления образами "
+"Тьюринг-полных смарт-контрактов."
+msgstr ""
+

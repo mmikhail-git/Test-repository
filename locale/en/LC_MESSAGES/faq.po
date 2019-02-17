@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 12:53+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# e03efb47a70e4284b7c792c8b2880442
+#: ../../faq.rst:2
+msgid "Вопросы и ответы"
+msgstr ""
+
+# 2cf1ef5aeb82436e8260913c3d6ff9f6
+#: ../../faq.rst:5
+msgid "Организационные вопросы"
+msgstr ""
+
+# 9b6bb7d815944cf780b6bec9448fb6b3
+#: ../../faq.rst:8
+msgid "Как связаться с технической поддержкой?"
+msgstr ""
+
+# 2d42206a7f0c4bc384090e17eac5d3a3
+#: ../../faq.rst:10
+msgid ""
+"Для контакта с технической поддержкой используйтей адрес "
+"`support@vostok.io <mailto: support@vostok.io>`_."
+msgstr ""
+

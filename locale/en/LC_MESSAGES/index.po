@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 12:53+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 6aace5cd9ab94f7fb12976c8e182c2a4
+#: ../../index.rst:2
+msgid "Документация блокчейн-платформы Vostok"
+msgstr ""
+
+# 32110d88c94b4b279283308b674fb64d
+#: ../../index.rst:4
+msgid "Блокчейн-платформа Vostok"
+msgstr ""
+
+# ee375abb025f4f16828f8c88177bb8d4
+#: ../../index.rst:13
+msgid "Как устроена платформа"
+msgstr ""
+
+# 450d9e436a984cfdbdeac64f75278008
+#: ../../index.rst:29
+msgid "Установка и настройка"
+msgstr ""
+
+# 04cc20b90fc94dd98545284156c8e988
+#: ../../index.rst:41
+msgid "Использование"
+msgstr ""
+
+# d9227a8df8924cfa97e1a571b9579d09
+#: ../../index.rst:52
+msgid "FAQ"
+msgstr ""
+

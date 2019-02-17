@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 12:53+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 7f32f77c631f463fa0b315191932ddf9
+#: ../../how-to-use/rest-api-node/blocks.rst:2
+msgid "Blocks"
+msgstr ""
+
+# bfec7e42120241f38611c74a52dad4d7
+#: ../../how-to-use/rest-api-node/blocks.rst:4
+msgid ""
+"Правила формирования запросов к ноде приведены в разделе :ref:`rest-api-"
+"node`."
+msgstr ""
+
+# f3d6e25500194002af351426dcefb20b
+#: ../../how-to-use/rest-api-node/blocks.rst:7
+msgid "GET /blocks/height"
+msgstr ""
+
+# ab573ae320c94669b9f49100114f0a4c
+#: ../../how-to-use/rest-api-node/blocks.rst:9
+msgid "Возвращает номер блока текущего состояния блокчейна."
+msgstr ""
+
+# ebb240d843064fb68679132384f89d78
+# 319086a9599c47b18f31ec73d6568af7
+#: ../../how-to-use/rest-api-node/blocks.rst:11
+#: ../../how-to-use/rest-api-node/blocks.rst:34
+msgid "**Ответ метода:**"
+msgstr ""
+
+# 2d57161a0c164fe5b88d84def07aa18f
+#: ../../how-to-use/rest-api-node/blocks.rst:20
+msgid "GET /blocks/height/{signature}"
+msgstr ""
+
+# c092a10706d74ccdb481bcf34c63cc7a
+#: ../../how-to-use/rest-api-node/blocks.rst:22
+msgid "Возвращает высоту (номер) блока по его подписи."
+msgstr ""
+
+# db60758ccd5f461684bd4feeef2090dc
+#: ../../how-to-use/rest-api-node/blocks.rst:25
+msgid "GET /blocks/first"
+msgstr ""
+
+# 1ad1b229a2ef4d9f87e78ba9a9430e33
+#: ../../how-to-use/rest-api-node/blocks.rst:27
+msgid "Возвращает содержимое первого блока (genesis block)."
+msgstr ""
+
+# 7e1d2f4aa83e46e39db765751c558b58
+#: ../../how-to-use/rest-api-node/blocks.rst:30
+msgid "GET /blocks/last"
+msgstr ""
+
+# e6b248c601ca452ca6464f4cf4e56b8d
+#: ../../how-to-use/rest-api-node/blocks.rst:32
+msgid "Возвращает содержимое последнего блока."
+msgstr ""
+
+# cd18b965eaa64b9eb8df9062e81c3105
+#: ../../how-to-use/rest-api-node/blocks.rst:66
+msgid "GET /blocks/at/{height}"
+msgstr ""
+
+# f0fc886b733247d2966118a54b5c2d7f
+#: ../../how-to-use/rest-api-node/blocks.rst:68
+msgid "Возвращает содержимое блока на высоте {height}."
+msgstr ""
+
+# 1e1407e0090c4fdd9ca10eca37e3b271
+#: ../../how-to-use/rest-api-node/blocks.rst:71
+msgid "GET /blocks/seq/{from}/{to}"
+msgstr ""
+
+# fdcb1028f44343de88489c7125b2e93a
+#: ../../how-to-use/rest-api-node/blocks.rst:73
+msgid "Возвращает содержимое блоков диапазоне от {from} до {to}."
+msgstr ""
+
+# 1323e87ffad441319a6d4eb8caabad35
+#: ../../how-to-use/rest-api-node/blocks.rst:76
+msgid "GET /blocks/signature/{signature}"
+msgstr ""
+
+# e397e64e56fc4cdb925d9681e96c6b59
+#: ../../how-to-use/rest-api-node/blocks.rst:78
+msgid "Возвращает содержимое блока по его подписи {signature}."
+msgstr ""
+
+# e828fee83ad147e78aa3fb1ec10945ef
+#: ../../how-to-use/rest-api-node/blocks.rst:81
+msgid "GET /blocks/address/{address}/{from}/{to}"
+msgstr ""
+
+# d6a61e38693b4cc9a25a8004383b1839
+#: ../../how-to-use/rest-api-node/blocks.rst:83
+msgid "Возвращает все блоки сформированные (смайненные) адресатом {address}."
+msgstr ""
+
+# 4abe6f66d5eb4cfdb6fea6acfb1ece0b
+#: ../../how-to-use/rest-api-node/blocks.rst:86
+msgid "GET /blocks/child/{signature}"
+msgstr ""
+
+# b2b5cc1c2e514117b64d9f7c00b9ee16
+#: ../../how-to-use/rest-api-node/blocks.rst:88
+msgid "Возвращает унаследованный блок от блока с подписью {signature}."
+msgstr ""
+
+# f718d605eec9495eb9a3c340d13ebfb7
+#: ../../how-to-use/rest-api-node/blocks.rst:91
+msgid "GET /blocks/headers/at/{height}"
+msgstr ""
+
+# 3b18e710547b4d6cb1aa730a23628dd8
+#: ../../how-to-use/rest-api-node/blocks.rst:93
+msgid "Возвращает заголовок блока на высоте {height}."
+msgstr ""
+
+# d1ee3ba37f4840388840e4afdda735b9
+#: ../../how-to-use/rest-api-node/blocks.rst:96
+msgid "GET /blocks/headers/seq/{from}/{to}"
+msgstr ""
+
+# cfdf96a58b134fc79707c79f537402d2
+#: ../../how-to-use/rest-api-node/blocks.rst:98
+msgid "Возвращает заголовки блоков диапазоне от {from} до {to}."
+msgstr ""
+
+# 718c7ed391264586b58598a6fcc974a8
+#: ../../how-to-use/rest-api-node/blocks.rst:101
+msgid "GET /blocks/headers/last"
+msgstr ""
+
+# 1493b1c505b2430e88a4bdb94c739b2b
+#: ../../how-to-use/rest-api-node/blocks.rst:103
+msgid "Возвращает заголовок последнего блока в блокчейне."
+msgstr ""
+

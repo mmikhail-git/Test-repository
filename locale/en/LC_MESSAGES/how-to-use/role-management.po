@@ -1,0 +1,231 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 12:53+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 0eda888fb48340eca8df4337fe4e6162
+#: ../../how-to-use/role-management.rst:4
+msgid "Управление полномочиями участников"
+msgstr ""
+
+# 9bf6759bbb1a410eb589dc2f6239e051
+#: ../../how-to-use/role-management.rst:6
+msgid ""
+"Список возможных ролей в блокчейн-платформе приведен в разделе "
+":ref:`\"Авторизация участников\" <authorization>`."
+msgstr ""
+
+# 35d2d3e3542e4fc4bf6df92378d99cb0
+#: ../../how-to-use/role-management.rst:8
+msgid ""
+"Обязательным условием для изменения полномочий участников (добавления или"
+" удаления ролей) является наличие приватного ключа участника с ролью "
+"\"permissioner\" в keystore ноды, с которой осуществляется запрос."
+msgstr ""
+
+# 98cf59d50aff46479992a0039ec5c263
+#: ../../how-to-use/role-management.rst:11
+msgid "Вариант №1 (через REST API)"
+msgstr ""
+
+# 53976412087e4218a9eeb0a3897c4f20
+#: ../../how-to-use/role-management.rst:12
+msgid ""
+"Управление полномочиями участника выполняется путем подписания (метод "
+"sign) и рассылки (метод broadcast) permission-транзакций через :ref:`REST"
+" API ноды <rest-api-node>`."
+msgstr ""
+
+# 07494389fd0b4444b3caa10fea9f47b2
+#: ../../how-to-use/role-management.rst:14
+msgid "Объект запроса для метода sign:"
+msgstr ""
+
+# 427d6e56fc8e44bfbeba3ae184646fff
+#: ../../how-to-use/role-management.rst:27
+msgid "**Поля запроса:**"
+msgstr ""
+
+# 301177b5561f4e91bf55e2012dc77805
+#: ../../how-to-use/role-management.rst:29
+msgid "type - тип транзакции для управления полномочиями участников (type = 102);"
+msgstr ""
+
+# 5b72dab2a3864cb69f732c9cd7982c7e
+#: ../../how-to-use/role-management.rst:30
+msgid "sender - адрес участника с полномочиями на выпуск permission-транзакций;"
+msgstr ""
+
+# d72d5b12224b4f7d8e297bf6419b3f23
+#: ../../how-to-use/role-management.rst:31
+msgid ""
+"target - адрес участника, для которого требуется установить или удалить "
+"полномочия;"
+msgstr ""
+
+# f1f19ba3a6ca46cf89dda88aa88326ad
+#: ../../how-to-use/role-management.rst:32
+msgid ""
+"role - полономочия участника, которые требуется установить или удалить. "
+"Возможные значения: \"miner\", \"issuer\", \"dex\", \"permissioner\", "
+"\"blacklister\", \"banned\", \"contract_developer\";"
+msgstr ""
+
+# c5e3291c97484a3ea0f1cdcc60f480ee
+#: ../../how-to-use/role-management.rst:33
+msgid ""
+"opType - тип операции \"add\" (добавить полномочия) или \"remove\" "
+"(удалить полномочия);"
+msgstr ""
+
+# c4165d7094a4407daff455ff06626bc2
+#: ../../how-to-use/role-management.rst:34
+msgid ""
+"dueTimestamp - дата действия permission в формате timestamp. Поле "
+"является опциональным."
+msgstr ""
+
+# 7473415cd7d44736ab5f3a003174791d
+#: ../../how-to-use/role-management.rst:36
+msgid "Полученный ответ от ноды передать методу broadcast."
+msgstr ""
+
+# 864e8ace1bcd4ff4b0611aa2586c8cdf
+#: ../../how-to-use/role-management.rst:39
+msgid "Вариант №2 (через утилиту)"
+msgstr ""
+
+# c63ddfbd937d49d195d14ddaa1dff26a
+#: ../../how-to-use/role-management.rst:40
+msgid "Используя утилиту Generators возможно автоматизировать процесс."
+msgstr ""
+
+# 4a078ad85be64a62b2f0d8c1c03cf79e
+#: ../../how-to-use/role-management.rst:42
+msgid "Пример запуска из консоли:"
+msgstr ""
+
+# 60a2a29146534a77a218a818d4330b51
+#: ../../how-to-use/role-management.rst:48
+msgid "Пример конфига:"
+msgstr ""
+
+# 8eb5e4ff0ee24108966929d59a7c57f9
+#: ../../how-to-use/role-management.rst:93
+msgid ""
+"Поле \"due-timestamp\" ограничивает время действия роли; Поля nodes, "
+"roles - обязательные."
+msgstr ""
+
+# 9973df84575c48179d5ab6af4dc43a4f
+#: ../../how-to-use/role-management.rst:96
+msgid ""
+"Если у ноды уже задана какая-либо из ролей, которая задана в конфиге, то "
+"ситуация обрабатывается в соответствии с правилами:"
+msgstr ""
+
+# dbe8716101854c92accc9a865620c27e
+#: ../../how-to-use/role-management.rst:99
+msgid "Текущее состояние ноды"
+msgstr ""
+
+# 095d8fdf715c4c72a089cae894597867
+#: ../../how-to-use/role-management.rst:99
+msgid "Состояние полученное из транзакции"
+msgstr ""
+
+# 882b59291d8a46c2ba4f62a5ad7f1d75
+#: ../../how-to-use/role-management.rst:99
+msgid "Результат обработки"
+msgstr ""
+
+# 22d4196709b040f08e249fb5c3a69984
+#: ../../how-to-use/role-management.rst:101
+msgid "Роль не назначена"
+msgstr ""
+
+# 0487952424c44891b45b12896883cd96
+#: ../../how-to-use/role-management.rst:101
+msgid "Новая роль"
+msgstr ""
+
+# c37cae2a0f184930a831361c62634b7c
+#: ../../how-to-use/role-management.rst:101
+msgid "Success - назначается роль"
+msgstr ""
+
+# 6260942e19cb4a348f3589a8eaf5367e
+#: ../../how-to-use/role-management.rst:102
+msgid "Назначена роль без dueDate"
+msgstr ""
+
+# 0131603d608f4346ad2f530503f9ec7f
+#: ../../how-to-use/role-management.rst:102
+msgid "Роль c dueDate"
+msgstr ""
+
+# a6f5a8b7323545398cffc3cf12363bf4
+#: ../../how-to-use/role-management.rst:102
+msgid ""
+"Проверка dueDate, если меньше текущей, то IncorrectDatetime, иначе "
+"Success - назначается роль с duedate"
+msgstr ""
+
+# 87c095a33bfb45a79a0bd231e4c5eb5e
+# a138179fbcbe4cfbb5c4171c71695924
+#: ../../how-to-use/role-management.rst:103
+#: ../../how-to-use/role-management.rst:104
+msgid "Назначена роль с dueDate"
+msgstr ""
+
+# bd480d4c02b24018a5e7b5764d786be9
+#: ../../how-to-use/role-management.rst:103
+msgid "Роль с dueDate"
+msgstr ""
+
+# 42bb5027bb75433ca7b039f8fc00c0bc
+#: ../../how-to-use/role-management.rst:103
+msgid ""
+"Проверка dueDate, если меньше текущей, то IncorrectDatetime, иначе "
+"Success - обновление dueDate"
+msgstr ""
+
+# 582ff6b833264d56a213af68646817f2
+#: ../../how-to-use/role-management.rst:104
+msgid "Роль без dueDate"
+msgstr ""
+
+# da9b78d731af4a3d8dd519b412368024
+#: ../../how-to-use/role-management.rst:104
+msgid "Success - назначается роль без dueDate"
+msgstr ""
+
+# 5779d982ecdf45df843468139269a086
+#: ../../how-to-use/role-management.rst:105
+msgid "Назначена роль с/без dueDate"
+msgstr ""
+
+# 5e37a973fdb54c0f913dee4e4f8ea102
+#: ../../how-to-use/role-management.rst:105
+msgid "Удаление роли"
+msgstr ""
+
+# 6e34c162a40e4a678835a27c87edfd84
+#: ../../how-to-use/role-management.rst:105
+msgid "Проверка адреса ноды, если <> адресу генезиса, то Success - удаляется роль"
+msgstr ""
+

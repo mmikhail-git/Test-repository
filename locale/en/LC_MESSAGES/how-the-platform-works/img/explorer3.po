@@ -1,0 +1,644 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 12:53+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 20f4be4b66f74e9ca33ff2f439ed84d5
+#: ../../how-the-platform-works/img/explorer3.rst:2
+msgid "Компонент для работы с данными"
+msgstr ""
+
+# 738187a0f79d4390896209e8c5f3e925
+#: ../../how-the-platform-works/img/explorer3.rst:5
+msgid "Основной фильтр"
+msgstr ""
+
+# c6aa68191d844592b0329264657c3a82
+#: ../../how-the-platform-works/img/explorer3.rst:7
+msgid "Информация в блокчейне разделена на 5 основных категорий:"
+msgstr ""
+
+# 2ba0703894f147faaaa8fc1d89d57a50
+# 97e7b71ffe61471b8bf33bb137e75ca6
+#: ../../how-the-platform-works/img/explorer3.rst:9
+#: ../../how-the-platform-works/img/explorer3.rst:32
+msgid "Транзакции с данными"
+msgstr ""
+
+# 9790596d43ac476c93b4e8c21bdfa086
+# a39401811a764097b2e1e57f9f88719f
+#: ../../how-the-platform-works/img/explorer3.rst:10
+#: ../../how-the-platform-works/img/explorer3.rst:63
+msgid "Транзакции с токенами"
+msgstr ""
+
+# 4a79bacb73a6450a899170c89be4d037
+#: ../../how-the-platform-works/img/explorer3.rst:11
+msgid "Транзакции с разрешениями и псевдонимами  пользователей"
+msgstr ""
+
+# a1e3d734e0b04984bfa4aed634d547cb
+# 2d7622ec6b6b41bf988f2b80d854f65e
+#: ../../how-the-platform-works/img/explorer3.rst:12
+#: ../../how-the-platform-works/img/explorer3.rst:265
+msgid "Транзакции с контрактами"
+msgstr ""
+
+# 30a9c2b0ee80449d8abdb9b01d51985c
+# 7d12dae3ecb7405d98a745e40f44d2c3
+#: ../../how-the-platform-works/img/explorer3.rst:13
+#: ../../how-the-platform-works/img/explorer3.rst:268
+msgid "Данные пользователей"
+msgstr ""
+
+# 9e42cfb0cd3b4db4908160b378148245
+#: ../../how-the-platform-works/img/explorer3.rst:15
+msgid ""
+"И отдельно доступны для просмотра все транзакции, ожидающие очереди на "
+"попадание в блокчейн. Основной фильтр над строкой поиска позволяет "
+"выбрать интересующую вас категорию."
+msgstr ""
+
+# e60948de55c1471bb4b4bb0451136a95
+#: ../../how-the-platform-works/img/explorer3.rst:21
+msgid ""
+"Транзакции в выдаче отображаются в обратном хронологическом порядке — от "
+"свежих к старым. При выборе транзакции доступна детальная информация."
+msgstr ""
+
+# 545762ffd21c4e4e83eee28ef40dd475
+#: ../../how-the-platform-works/img/explorer3.rst:25
+msgid "Фильтр по дате"
+msgstr ""
+
+# 6d08b152928544fe8eaf97f4db8eca40
+#: ../../how-the-platform-works/img/explorer3.rst:29
+msgid "Строка поиска"
+msgstr ""
+
+# 4fd910f4150043699b577cc7f10694d8
+# 468d3b2941a440419248563e3e2b8b9a
+# 13cd2757261c401e8e1e2e86d8a1aff6
+# 97d33bd6dd624fc39a372f5d312dcd12
+# f3c1e588eba2473a841a1b472f2c5401
+# a354f74c9a3347a49f4ca22058faf744
+# 4904108ee0f944e3901144d59ab5b4da
+# 7135372328ae499580b411fcdcbba163
+#: ../../how-the-platform-works/img/explorer3.rst:34
+#: ../../how-the-platform-works/img/explorer3.rst:81
+#: ../../how-the-platform-works/img/explorer3.rst:113
+#: ../../how-the-platform-works/img/explorer3.rst:146
+#: ../../how-the-platform-works/img/explorer3.rst:175
+#: ../../how-the-platform-works/img/explorer3.rst:204
+#: ../../how-the-platform-works/img/explorer3.rst:225
+#: ../../how-the-platform-works/img/explorer3.rst:253
+msgid "**Информация**"
+msgstr ""
+
+# 2ec6cdc428b04e9b8125e9c668879dfd
+#: ../../how-the-platform-works/img/explorer3.rst:36
+msgid "Автор — id или псевдоним отправителя."
+msgstr ""
+
+# 94b654bc9b334b06b267acd1766e1cb9
+#: ../../how-the-platform-works/img/explorer3.rst:37
+msgid "Получатель — id или псевдоним получателя."
+msgstr ""
+
+# f403106289304bd09093f98c3c51d725
+#: ../../how-the-platform-works/img/explorer3.rst:38
+msgid "Комиссия за транзакцию — сумма комиссии за транзакцию."
+msgstr ""
+
+# cc95cfba0dee448ca0ff3a5eadd61667
+#: ../../how-the-platform-works/img/explorer3.rst:39
+msgid "Дата — дата фиксации транзакции в блокчейне."
+msgstr ""
+
+# ffd49c9adaed40329538ea8de525df38
+#: ../../how-the-platform-works/img/explorer3.rst:40
+msgid "Строка отбора значений  — фильтрует список данных транзакции."
+msgstr ""
+
+# 69e64876adbe4069ac07554a5ab02ed5
+#: ../../how-the-platform-works/img/explorer3.rst:41
+msgid "Список данных транзакции в формате ключ-значение."
+msgstr ""
+
+# a70177916004446faec3102b4b0c27f2
+# fc04944b039a4522baaa237a51c735a9
+# d76ca0cbc7ef4fe2909c45c82af0f157
+#: ../../how-the-platform-works/img/explorer3.rst:43
+#: ../../how-the-platform-works/img/explorer3.rst:214
+#: ../../how-the-platform-works/img/explorer3.rst:235
+msgid "**Пользователь**"
+msgstr ""
+
+# a7d01b4635df4cd4a6a0cec9df35552c
+#: ../../how-the-platform-works/img/explorer3.rst:45
+msgid ""
+"Роль — роль пользователя в транзакции "
+"(Отправитель\\Получатель\\Автор\\Эмитент)"
+msgstr ""
+
+# 87debb3c6b434d9c8ba30cfb09d78ab5
+#: ../../how-the-platform-works/img/explorer3.rst:46
+msgid "Псевдонимы — имена пользователя."
+msgstr ""
+
+# 53e5da359ea34de78f11b7ef63f4c873
+#: ../../how-the-platform-works/img/explorer3.rst:47
+msgid "Адрес — адрес пользователя."
+msgstr ""
+
+# 8b96037c00ad431baf6d5881e46c0587
+#: ../../how-the-platform-works/img/explorer3.rst:48
+msgid ""
+"Баланс — отображает доступный для транзакций объем токенов (токены в "
+"лизинге не отображаются)."
+msgstr ""
+
+# 38764a83d2b146679b32a14d3599d4d5
+#: ../../how-the-platform-works/img/explorer3.rst:49
+msgid "Разрешения — выданные пользователю разрешения."
+msgstr ""
+
+# 39f2156444d64268beba22c54d0cd72a
+# e00f3eb48eb9416083a137dedccdfcba
+# 0db273ea8c2b4f76af6370fea51df6d7
+# f2aec4ea033145cd9996b2ae01be969f
+# 48c4d8e16541473da0dd96f67c45a937
+# bc81d2c2c9ef4289ba96fea74837856c
+#: ../../how-the-platform-works/img/explorer3.rst:51
+#: ../../how-the-platform-works/img/explorer3.rst:97
+#: ../../how-the-platform-works/img/explorer3.rst:130
+#: ../../how-the-platform-works/img/explorer3.rst:161
+#: ../../how-the-platform-works/img/explorer3.rst:190
+#: ../../how-the-platform-works/img/explorer3.rst:244
+msgid "**Блок**"
+msgstr ""
+
+# 189457d515684aeaa4955cd36cbc2c6d
+# 1e04480e3c0b4421899196c0e80d24cc
+# 69a78c44d1b0470fa708ad5b185d837a
+# ea85a1c650c343568b80710250c18ded
+# 8fa736a286644782b5b18662cc594b36
+#: ../../how-the-platform-works/img/explorer3.rst:53
+#: ../../how-the-platform-works/img/explorer3.rst:99
+#: ../../how-the-platform-works/img/explorer3.rst:132
+#: ../../how-the-platform-works/img/explorer3.rst:163
+#: ../../how-the-platform-works/img/explorer3.rst:192
+msgid "Высота блока — высота блокчейна, на которой блок добавлен в цепь."
+msgstr ""
+
+# 838d2d9a64b24541be5dc1a7c5f133e2
+# 94e058818bdc404284708a898a3f0520
+# 8178cfa66c2e4628ab5c42ea77435eb5
+# 17f5ebab7ef645e19793fff96e9c9adb
+# dbe51198d76e44f3b3a6180673cfe7ed
+#: ../../how-the-platform-works/img/explorer3.rst:54
+#: ../../how-the-platform-works/img/explorer3.rst:100
+#: ../../how-the-platform-works/img/explorer3.rst:133
+#: ../../how-the-platform-works/img/explorer3.rst:164
+#: ../../how-the-platform-works/img/explorer3.rst:193
+msgid "Версия — тип блока, 1 для генезис, 3 для остальных."
+msgstr ""
+
+# 6ad93c24a7b748d2981b50b4e3671938
+# fdc683eaf7e6450eafdc55dc4f749b15
+# aa21d9cd39654fb0a015b99af58912c1
+# e09e4e647bd244a79b2986aacd452e01
+# e031d93123b744109eeac5b3ce4dad41
+#: ../../how-the-platform-works/img/explorer3.rst:55
+#: ../../how-the-platform-works/img/explorer3.rst:101
+#: ../../how-the-platform-works/img/explorer3.rst:134
+#: ../../how-the-platform-works/img/explorer3.rst:165
+#: ../../how-the-platform-works/img/explorer3.rst:194
+msgid "Дата формирования"
+msgstr ""
+
+# 573bd025a71a4d1f836d49962d7e7bd6
+# f5220269d15d4ebcb176037a0a229244
+# 753286b7246a4f2098d9dc7455e9ea7d
+# 10d3a170eed44be3817622a88d63bb5d
+# c7a2cbe034014244a6bed6f6f26335ae
+#: ../../how-the-platform-works/img/explorer3.rst:56
+#: ../../how-the-platform-works/img/explorer3.rst:102
+#: ../../how-the-platform-works/img/explorer3.rst:135
+#: ../../how-the-platform-works/img/explorer3.rst:166
+#: ../../how-the-platform-works/img/explorer3.rst:195
+msgid "Предыдущий блок"
+msgstr ""
+
+# 2e4dbc78ea7c41e9ac6b660f7abd4e4b
+# 2a3d3e520a5147a7967068a51aa500d4
+# 2b6c501d5eaa48cc9795b83c45691b12
+# a176fe0069b646478b02c8910e9912b9
+# ef1fe5623a31484ea153129b43ee42c0
+#: ../../how-the-platform-works/img/explorer3.rst:57
+#: ../../how-the-platform-works/img/explorer3.rst:106
+#: ../../how-the-platform-works/img/explorer3.rst:139
+#: ../../how-the-platform-works/img/explorer3.rst:170
+#: ../../how-the-platform-works/img/explorer3.rst:199
+msgid "Подпись блока"
+msgstr ""
+
+# 2f30d9b4da6a4010b29190c5b6646268
+# bf3cb7281eba48968e44a9d4b1139ef6
+# 2a832f4426d646499ae7a9f2e98dc7de
+# c0805b1b7f5947059978974323191766
+# e583a0ae91704beea2d6d838e24db1a9
+#: ../../how-the-platform-works/img/explorer3.rst:58
+#: ../../how-the-platform-works/img/explorer3.rst:105
+#: ../../how-the-platform-works/img/explorer3.rst:138
+#: ../../how-the-platform-works/img/explorer3.rst:169
+#: ../../how-the-platform-works/img/explorer3.rst:198
+msgid ""
+"Сложность — служебный параметр для корректировки времени формирования "
+"блока, подробнее в описании алгоритма консенсуса POS."
+msgstr ""
+
+# eb0402492e45421fb420a97f463e7daa
+# 50f7cd2888084e3cb3b2a2efd1f88e97
+# 5b6a4aebebbc4640b1c028abda2ff9e0
+# 21aef1a5bc0445f2aac496ae90f3e96a
+# 4ebbae7e07634338811c7d9e4ef2e2fb
+#: ../../how-the-platform-works/img/explorer3.rst:59
+#: ../../how-the-platform-works/img/explorer3.rst:104
+#: ../../how-the-platform-works/img/explorer3.rst:137
+#: ../../how-the-platform-works/img/explorer3.rst:168
+#: ../../how-the-platform-works/img/explorer3.rst:197
+msgid "Размер — вес блока в байтах."
+msgstr ""
+
+# efcffbfe2316470e9494f10517e17ff6
+# d50f6ed7112d4490943e60afede7a90b
+# 427a240498974745ab4af9f7fdc9e3a2
+# f64f798aff634dbf8042e8ae6332da2b
+# 4b9557d1a4014043b617bf9910c2c63b
+#: ../../how-the-platform-works/img/explorer3.rst:60
+#: ../../how-the-platform-works/img/explorer3.rst:103
+#: ../../how-the-platform-works/img/explorer3.rst:136
+#: ../../how-the-platform-works/img/explorer3.rst:167
+#: ../../how-the-platform-works/img/explorer3.rst:196
+msgid "Создан — адрес майнера."
+msgstr ""
+
+# 209612133bce4c33b8180c96f8b5dec3
+#: ../../how-the-platform-works/img/explorer3.rst:66
+msgid "Фильтр по типам транзакций"
+msgstr ""
+
+# 883dfa164b4a4f02aab05302289bd801
+#: ../../how-the-platform-works/img/explorer3.rst:68
+msgid "Для транзакций доступен дополнительный фильтр по типам транзакций:"
+msgstr ""
+
+# 29b53b5e551e4ec6a443a540cd08a862
+#: ../../how-the-platform-works/img/explorer3.rst:70
+msgid "Отправка"
+msgstr ""
+
+# c8a1b386ab4346e8ad9cb7a1605598c0
+# dcbbb87421884ddfbdcb99a81e711314
+#: ../../how-the-platform-works/img/explorer3.rst:71
+#: ../../how-the-platform-works/img/explorer3.rst:111
+msgid "Массовая отправка"
+msgstr ""
+
+# b6b473fa98364f0aa52243d58e317290
+# 904650c1036444028314bc2502b4f696
+#: ../../how-the-platform-works/img/explorer3.rst:72
+#: ../../how-the-platform-works/img/explorer3.rst:142
+msgid "Лизинг"
+msgstr ""
+
+# 01a1ed3d404d434da10b6d0b55884d46
+# 32f6aea3b8984fd0915f4da1e163e805
+#: ../../how-the-platform-works/img/explorer3.rst:73
+#: ../../how-the-platform-works/img/explorer3.rst:173
+msgid "Отмена лизинга"
+msgstr ""
+
+# ee2730fc6f8f40f58f45cc447c57a44b
+# 3a55ccdcc2c149599cadbbcca93daef5
+#: ../../how-the-platform-works/img/explorer3.rst:74
+#: ../../how-the-platform-works/img/explorer3.rst:202
+msgid "Выпуск токенов"
+msgstr ""
+
+# 38580ebdab9146e9836b52a0f490eb3c
+# 41a5eba8d33c49238de95d7fd7f4e5b9
+#: ../../how-the-platform-works/img/explorer3.rst:75
+#: ../../how-the-platform-works/img/explorer3.rst:220
+msgid "Дополнительная эмиссия токенов"
+msgstr ""
+
+# b28bec36b164470da11ecf0d81f59d7f
+# 587cd1acd633426ab03f89dd325268d2
+#: ../../how-the-platform-works/img/explorer3.rst:76
+#: ../../how-the-platform-works/img/explorer3.rst:223
+msgid "Вывод токенов из обращения"
+msgstr ""
+
+# 64b4267848c44786a8d2e80e9a79e422
+#: ../../how-the-platform-works/img/explorer3.rst:79
+msgid "Перевод токенов"
+msgstr ""
+
+# 8daf6d713a7446abb4b503180a139e91
+# 1f7f05830cd743c6ac5bea0744b385db
+# 8954117f3e9541598da84c95c8dddb61
+#: ../../how-the-platform-works/img/explorer3.rst:83
+#: ../../how-the-platform-works/img/explorer3.rst:148
+#: ../../how-the-platform-works/img/explorer3.rst:177
+msgid "Отправитель — адрес или псевдоним отправителя."
+msgstr ""
+
+# 7714c4db4fb94431bdc9610790df03fb
+# 6a7e930ecc934db69a1369169bcf60eb
+# d573676393a746a78bc832e77feaa7c3
+#: ../../how-the-platform-works/img/explorer3.rst:84
+#: ../../how-the-platform-works/img/explorer3.rst:149
+#: ../../how-the-platform-works/img/explorer3.rst:178
+msgid "Получатель — адрес или псевдоним получателя."
+msgstr ""
+
+# c212890f83554889abd2642fa66c8ef6
+# 691e992c88244f2784a6db6ad3cd55fa
+#: ../../how-the-platform-works/img/explorer3.rst:85
+#: ../../how-the-platform-works/img/explorer3.rst:117
+msgid "Вложение — текстовое сообщение отправителя."
+msgstr ""
+
+# 1d377a707b154150ab43ee5efb874c58
+# 5d6e9dc8fb654891aa34b327447c3438
+# c2efec4d32f14af6939d2ce224f77060
+# 90d1985b8eb34fbb803d3f38e3654009
+# 2ec5458ee09d42c3879a5282ef2929b5
+# c0d859a3293941fe9eb3b9c035981c08
+# d4c5630405aa49028ed5074eff0396c1
+#: ../../how-the-platform-works/img/explorer3.rst:86
+#: ../../how-the-platform-works/img/explorer3.rst:118
+#: ../../how-the-platform-works/img/explorer3.rst:150
+#: ../../how-the-platform-works/img/explorer3.rst:179
+#: ../../how-the-platform-works/img/explorer3.rst:209
+#: ../../how-the-platform-works/img/explorer3.rst:230
+#: ../../how-the-platform-works/img/explorer3.rst:257
+msgid "Комиссия за транзакцию"
+msgstr ""
+
+# 0ab6cd9fcd2846c7aa0416f09b36d190
+# eceba7362575494da2e8b364d5e99656
+# b87d1f686e3045319b3808fcfcedbb84
+# 064350edec4d4f2da804362851077a87
+#: ../../how-the-platform-works/img/explorer3.rst:87
+#: ../../how-the-platform-works/img/explorer3.rst:119
+#: ../../how-the-platform-works/img/explorer3.rst:151
+#: ../../how-the-platform-works/img/explorer3.rst:180
+msgid "Дата — дата фиксации транзакции в блокчейн."
+msgstr ""
+
+# e5885706c7244397ab61219c43c3844e
+# 65f78f85d49a44fe8178f1060d5872ba
+# 9fd371405ea6478085aeb99bee7e92bf
+# faf9061341b845a4b9896b65efd01357
+# 465ba05a918244319c7242185e1843e2
+#: ../../how-the-platform-works/img/explorer3.rst:89
+#: ../../how-the-platform-works/img/explorer3.rst:121
+#: ../../how-the-platform-works/img/explorer3.rst:153
+#: ../../how-the-platform-works/img/explorer3.rst:182
+#: ../../how-the-platform-works/img/explorer3.rst:262
+msgid "**Пользователи**"
+msgstr ""
+
+# 3dcd533a34e148e68d8a55a5aa7cbb44
+# d35bb143f46449fbb36b00e4a14adc4b
+# d517e5616875440792ede516fcb68a49
+#: ../../how-the-platform-works/img/explorer3.rst:91
+#: ../../how-the-platform-works/img/explorer3.rst:155
+#: ../../how-the-platform-works/img/explorer3.rst:184
+msgid "Роль — Отправитель/Получатель."
+msgstr ""
+
+# f6b2a23e96d249d085cc033bd81314af
+# ba5a7da096b84d998f337315d3d440c0
+# 8fd832644378465c9ef8631a5e958837
+#: ../../how-the-platform-works/img/explorer3.rst:92
+#: ../../how-the-platform-works/img/explorer3.rst:156
+#: ../../how-the-platform-works/img/explorer3.rst:185
+msgid "Псевдонимы — отправителя и получателя."
+msgstr ""
+
+# 183e9bab3b564afaa6872c74451369c8
+# 0c2fe9e058144f4a80c48d8985342b93
+# 98a8f2f42fa340869deeea673335b199
+#: ../../how-the-platform-works/img/explorer3.rst:93
+#: ../../how-the-platform-works/img/explorer3.rst:157
+#: ../../how-the-platform-works/img/explorer3.rst:186
+msgid "Адрес — отправителя и получателя."
+msgstr ""
+
+# 14c8fb798039489592377353f905313d
+# 5c2080964d6743a9be1247888447e2c9
+# e08b02b9fe024781858c290068a5b5f5
+#: ../../how-the-platform-works/img/explorer3.rst:94
+#: ../../how-the-platform-works/img/explorer3.rst:158
+#: ../../how-the-platform-works/img/explorer3.rst:187
+msgid "Баланс — отправителя и получателя."
+msgstr ""
+
+# 211dfdb6565f480592b1c60598680d35
+# 156d1eddebcd4b62804db562f3a9d7e7
+# 95869b369e434a9fbb1940e1029d1947
+# 3a864d4fa5524b21906a21a3c1373947
+#: ../../how-the-platform-works/img/explorer3.rst:95
+#: ../../how-the-platform-works/img/explorer3.rst:127
+#: ../../how-the-platform-works/img/explorer3.rst:159
+#: ../../how-the-platform-works/img/explorer3.rst:188
+msgid "Разрешения — разрешения пользователя на текущий момент."
+msgstr ""
+
+# a2a6912008c849bcbb5d7232b87b975e
+#: ../../how-the-platform-works/img/explorer3.rst:108
+msgid ""
+"Список транзакций содержащихся в блоке. Просматриваемая в данный момент "
+"транзакция выделена, для остальных транзакций доступен переход в карточку"
+" транзакции."
+msgstr ""
+
+# 3e0f7b2be1374ab4b1a6d2d740ed7856
+#: ../../how-the-platform-works/img/explorer3.rst:115
+msgid "Отправитель — адрес или псевдоним."
+msgstr ""
+
+# 86c8d9e911604b1b9d52f2f95e55495e
+#: ../../how-the-platform-works/img/explorer3.rst:116
+msgid "Получатели — с указанием суммы напротив каждого получателя."
+msgstr ""
+
+# 827b133ec7254f0ba933256f1d0a033b
+#: ../../how-the-platform-works/img/explorer3.rst:123
+msgid "Роль — Отправитель."
+msgstr ""
+
+# 1f3087be0ffd450a86c9a3c103d32c7c
+#: ../../how-the-platform-works/img/explorer3.rst:124
+msgid "Псевдонимы — отправителя."
+msgstr ""
+
+# 20f7d10150374cfa8ed53032daf37dac
+#: ../../how-the-platform-works/img/explorer3.rst:125
+msgid "Адрес — отправителя."
+msgstr ""
+
+# f31a0b6c95fb40f0b1f11b22af63550e
+#: ../../how-the-platform-works/img/explorer3.rst:126
+msgid "Баланс — отправителя."
+msgstr ""
+
+# ede00eb07e46450d9d4835ee8d1d81e3
+#: ../../how-the-platform-works/img/explorer3.rst:128
+msgid "Список адресов или псевдонимов получателей."
+msgstr ""
+
+# 1e8c3538b1344c15a0b341a39baf2339
+#: ../../how-the-platform-works/img/explorer3.rst:144
+msgid "Транзакция лизинга самому себе запрещена."
+msgstr ""
+
+# 04c7e84cacc842d5986a8787e6d3ec36
+#: ../../how-the-platform-works/img/explorer3.rst:206
+msgid "Описание токена"
+msgstr ""
+
+# 0be7d46e303c44d7b45efd80eb1c8d17
+#: ../../how-the-platform-works/img/explorer3.rst:207
+msgid "id операции"
+msgstr ""
+
+# 2a2538ef84344acabe92650ad9337f4d
+#: ../../how-the-platform-works/img/explorer3.rst:208
+msgid "Тип — Перевыпускаемые"
+msgstr ""
+
+# 26f518acb6c44c8cad2b179deca250a0
+#: ../../how-the-platform-works/img/explorer3.rst:210
+msgid "Подтверждения"
+msgstr ""
+
+# 18b0ecec88b64b6481442c559cabe38f
+# ab16ef872b0e41ddb7df72024ed47e92
+# 0d8eb600328d42d2a97173fbc6387477
+#: ../../how-the-platform-works/img/explorer3.rst:211
+#: ../../how-the-platform-works/img/explorer3.rst:232
+#: ../../how-the-platform-works/img/explorer3.rst:259
+msgid "Дата"
+msgstr ""
+
+# 6a401cbfffb543dab2e00813c676f593
+#: ../../how-the-platform-works/img/explorer3.rst:212
+msgid "Статус — выполнено"
+msgstr ""
+
+# 986b2ade33894d70a8887f77be7584d5
+#: ../../how-the-platform-works/img/explorer3.rst:216
+msgid "Роль — эмитент"
+msgstr ""
+
+# a15b1777558d4098a3755704166188c3
+# 106bb9f2a9ea48cebd30cf0ba4208bdd
+# 5e0694f485dd493b9c5f3958c8b1bda8
+# f9e19189aa3f46c38fd9c05d15415d6b
+#: ../../how-the-platform-works/img/explorer3.rst:217
+#: ../../how-the-platform-works/img/explorer3.rst:238
+#: ../../how-the-platform-works/img/explorer3.rst:251
+#: ../../how-the-platform-works/img/explorer3.rst:255
+msgid "Псевдоним"
+msgstr ""
+
+# 8a0b903cb2a04d05b0d71e5b3a961a70
+#: ../../how-the-platform-works/img/explorer3.rst:227
+#, python-format
+msgid "Заголовок — Сжигание %количество% %название токена%"
+msgstr ""
+
+# 1d6ffd176d774ba7ab0dbbccb90fe868
+#: ../../how-the-platform-works/img/explorer3.rst:228
+msgid "id транзакции"
+msgstr ""
+
+# a510480f44b04eec9d4901ea7096b60d
+#: ../../how-the-platform-works/img/explorer3.rst:229
+msgid "Тип токена — Перевыпускаемые \\Неперевыпускаемые"
+msgstr ""
+
+# 9e2f1303e74e45febfbdb2f23c00f613
+#: ../../how-the-platform-works/img/explorer3.rst:231
+msgid "Подтверждение"
+msgstr ""
+
+# 4da680450bc04f2880348d9adcfba4df
+#: ../../how-the-platform-works/img/explorer3.rst:233
+msgid "Статус - выполнено"
+msgstr ""
+
+# a5f6532efa314cdba179c8fbadb0da8b
+#: ../../how-the-platform-works/img/explorer3.rst:237
+msgid "Роль — инициатор"
+msgstr ""
+
+# 4999cc9f6fe0456f9193827f1d3b0d71
+#: ../../how-the-platform-works/img/explorer3.rst:239
+msgid "Адрес пользователя"
+msgstr ""
+
+# f36bc67627cc45989c98c39faa948069
+#: ../../how-the-platform-works/img/explorer3.rst:240
+msgid "Баланс VST"
+msgstr ""
+
+# 4429365f951d4958ad5cc8e9e994fac4
+#: ../../how-the-platform-works/img/explorer3.rst:241
+msgid "Баланс других токенов"
+msgstr ""
+
+# 455b4914002f4cd0b04770e343d3d185
+#: ../../how-the-platform-works/img/explorer3.rst:242
+msgid "Разрешения — на момент совершения транзакций?"
+msgstr ""
+
+# e50bd21bc14544849570c2b1693988d2
+#: ../../how-the-platform-works/img/explorer3.rst:248
+msgid "Транзакции с разрешениями и именами"
+msgstr ""
+
+# 3d1c64ec96104a5ba1a5ca0ceddab036
+#: ../../how-the-platform-works/img/explorer3.rst:256
+msgid "Привязан к адресу"
+msgstr ""
+
+# e306bb2355eb4ccd9019738b24190f61
+#: ../../how-the-platform-works/img/explorer3.rst:258
+msgid "Подтверждение — количество подтверждений транзакции (блоков над ней)"
+msgstr ""
+
+# 3ad01048321547e6952d515cf45bbaac
+#: ../../how-the-platform-works/img/explorer3.rst:260
+msgid "Статус — Выполнено"
+msgstr ""
+

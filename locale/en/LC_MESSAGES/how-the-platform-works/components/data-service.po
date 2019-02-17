@@ -1,0 +1,364 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 12:53+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 29b1c04794b34712afda172907665205
+#: ../../how-the-platform-works/components/data-service.rst:2
+msgid "Сервис подготовки данных"
+msgstr ""
+
+# 290afc1e99e14a07a539a53abc819435
+#: ../../how-the-platform-works/components/data-service.rst:4
+msgid ""
+"Агрегирует данные из блокчейна в реляционную БД и предоставляет API для "
+"доступа к этим данным. Функциональные возможности сервиса спроектированы "
+"под потребности клиента Vostok. Для запросов доступны уточняющие "
+"параметры."
+msgstr ""
+
+# c123196824334ba698172e2e751f5e29
+#: ../../how-the-platform-works/components/data-service.rst:8
+msgid "Использование"
+msgstr ""
+
+# a55f27806d58490fb6e9ad561d127dc4
+#: ../../how-the-platform-works/components/data-service.rst:10
+msgid ""
+"Для использования сервиса необходимо развернуть свой экземпляр клиента и "
+"ноды из комплекта поставки. На данный момент доступ к API сервиса "
+"подготовки данной в публичной сети ограничен."
+msgstr ""
+
+# ee8f465242b1494f84f415f121c7c1f6
+#: ../../how-the-platform-works/components/data-service.rst:13
+msgid "Уточняющие параметры"
+msgstr ""
+
+# 2f0c01e44d48448dbca0ac64eb0d1609
+#: ../../how-the-platform-works/components/data-service.rst:16
+msgid "Поиск"
+msgstr ""
+
+# 1102a76ada754e35ae00f69f8d07e007
+#: ../../how-the-platform-works/components/data-service.rst:18
+msgid ""
+"Поиск совпадения — принимает на вход строку и диапазон для поиска "
+"совпадения."
+msgstr ""
+
+# 0e9c5d4122ba4e109444c7cadea0a9f4
+#: ../../how-the-platform-works/components/data-service.rst:20
+msgid "Диапазон поиска совпадений:"
+msgstr ""
+
+# 56e35e98ab9a4679aa4a2f37125b6ee2
+#: ../../how-the-platform-works/components/data-service.rst:22
+msgid "в описаниях наборов токенов и в сообщениях в трансфер транзакциях;"
+msgstr ""
+
+# d2ddf289486c41fba2ccdc77459e9f87
+#: ../../how-the-platform-works/components/data-service.rst:23
+msgid "в суммах транзакций;"
+msgstr ""
+
+# f14e3727dc1b4c69b21b78c7d2aadb3c
+#: ../../how-the-platform-works/components/data-service.rst:24
+msgid "в блоках;"
+msgstr ""
+
+# e5095acd1b3945deb16eca982b4a5504
+#: ../../how-the-platform-works/components/data-service.rst:25
+msgid "в псевдонимах отправителей и получателей транзакций;"
+msgstr ""
+
+# 4ab99358710e40a38977356041b2f841
+#: ../../how-the-platform-works/components/data-service.rst:26
+msgid "в адресах отправителей и получателей транзакций;"
+msgstr ""
+
+# bf93e772aeba43e3a94d8f1c63836f1f
+#: ../../how-the-platform-works/components/data-service.rst:27
+msgid "в идентификаторах транзакций;"
+msgstr ""
+
+# 81d8a837e3e34c9a896966d84490b1ac
+#: ../../how-the-platform-works/components/data-service.rst:28
+msgid "в идентификаторах токенов;"
+msgstr ""
+
+# ba19968b276e4c81a3b5880a2c467cf4
+#: ../../how-the-platform-works/components/data-service.rst:29
+msgid "в подписях транзакций;"
+msgstr ""
+
+# 78ec069e855b431e8f5ba01239a898a6
+#: ../../how-the-platform-works/components/data-service.rst:30
+msgid "в ключах-значениях транзакций с данными."
+msgstr ""
+
+# 7d72063c2d3e4d7fa7573f96f694d1d9
+#: ../../how-the-platform-works/components/data-service.rst:33
+msgid "Фильтры"
+msgstr ""
+
+# c1baa697e42a4337aab2a0d9d4996bcb
+#: ../../how-the-platform-works/components/data-service.rst:35
+msgid ""
+"Определяют возвращаемые методами API данные о транзанзакциях. Доступны "
+"следующие фильтры:"
+msgstr ""
+
+# 29c5446935ba4fcc8f7cc77345135cc6
+#: ../../how-the-platform-works/components/data-service.rst:37
+msgid ""
+"По типу транзакций — числовой идентификатор типа транзакций. "
+"Идентификаторы описаны в разделе :ref:`data-structures`."
+msgstr ""
+
+# c573f8d5e8f045dd968bb8d315e536b8
+#: ../../how-the-platform-works/components/data-service.rst:38
+msgid ""
+"По набору токенов - идентификатор набора токенов (идентификатор "
+"транзакции создания набора токенов)."
+msgstr ""
+
+# b17bfd9cb80042a39694d6974df45774
+#: ../../how-the-platform-works/components/data-service.rst:41
+msgid ""
+"По сумме транзакции (требует указания типа транзакций и идентификатора "
+"набора токенов):"
+msgstr ""
+
+# d35358f8d7ed402ab4e94b7e85bb3e10
+#: ../../how-the-platform-works/components/data-service.rst:40
+msgid "Сумма транзакции равна - число;"
+msgstr ""
+
+# 2d94965fa2824bbd90447eecc730af0a
+#: ../../how-the-platform-works/components/data-service.rst:41
+msgid "Сумма транзакции от - число;"
+msgstr ""
+
+# 35cdecd2cdc7480aa658804d70e85a33
+#: ../../how-the-platform-works/components/data-service.rst:42
+msgid "Сумма транзакции до - число."
+msgstr ""
+
+# 153ff0c86c3c4c1caadaa13aba4e8227
+#: ../../how-the-platform-works/components/data-service.rst:44
+msgid "По дате (требует указания обоих значений диапазона):"
+msgstr ""
+
+# b6aa168280da45349fcc58c725c2cd22
+#: ../../how-the-platform-works/components/data-service.rst:44
+msgid "Дата транзакции от в формате гггг-мм-чч;"
+msgstr ""
+
+# dd3426967e0b47f9bdf9cafbe291b3b8
+#: ../../how-the-platform-works/components/data-service.rst:45
+msgid "Дата транзакции до гггг-мм-чч."
+msgstr ""
+
+# e5690a5bd0f54174a57b8f145430b67d
+#: ../../how-the-platform-works/components/data-service.rst:46
+msgid ""
+"Разрешения —  отображает транзакции разрешений, требует указания типа "
+"транзакци «Permission»."
+msgstr ""
+
+# 144241ee37334f9080648a16529353e1
+#: ../../how-the-platform-works/components/data-service.rst:47
+msgid ""
+"Индекс и Лимит— возвращает из БД транзакции до указанного индекса "
+"согласно заданному лимиту."
+msgstr ""
+
+# 8536e3aadd2642af9bb4fde971d33006
+#: ../../how-the-platform-works/components/data-service.rst:50
+msgid "Транзакции"
+msgstr ""
+
+# 4814f86988bb47e782185c5e0e93d7c1
+#: ../../how-the-platform-works/components/data-service.rst:53
+msgid "GET /transactions"
+msgstr ""
+
+# 4b6f059fae404895add9f9b96bba4501
+#: ../../how-the-platform-works/components/data-service.rst:55
+msgid ""
+"Возвращает список транзакций, соответствующий условиям поискового запроса"
+" и применённым фильтрам."
+msgstr ""
+
+# c67aafeb2b864e2e901459ad6a8d98c5
+# d0166af773e741d09629abb43954894e
+# 09caae76f21a4b6e8098d50d23481621
+# 37f8bdfe169c41b69cd780a1f4d3793a
+# a004b870362c45c5a6b9ee1fc33b8066
+# 6fe2951b3a3a444c93cf1396eb5a6207
+# c6e61feaf71f4b58878f21521053cbe9
+# 3df6786ef68448eaa24c86bae5c7daf6
+# e95e02da180c4bdbafff751a6e3afb3a
+# 2561a35091d74a0498ecc235aa0ab540
+# 3255999d22364997b433ecba9713c2fc
+#: ../../how-the-platform-works/components/data-service.rst:57
+#: ../../how-the-platform-works/components/data-service.rst:80
+#: ../../how-the-platform-works/components/data-service.rst:93
+#: ../../how-the-platform-works/components/data-service.rst:117
+#: ../../how-the-platform-works/components/data-service.rst:149
+#: ../../how-the-platform-works/components/data-service.rst:177
+#: ../../how-the-platform-works/components/data-service.rst:206
+#: ../../how-the-platform-works/components/data-service.rst:250
+#: ../../how-the-platform-works/components/data-service.rst:265
+#: ../../how-the-platform-works/components/data-service.rst:280
+#: ../../how-the-platform-works/components/data-service.rst:306
+msgid "**Ответ метода:**"
+msgstr ""
+
+# 5f1e64f8e70344778f0d81fe3461357c
+#: ../../how-the-platform-works/components/data-service.rst:76
+msgid "GET /transactions/count"
+msgstr ""
+
+# f8ffe9629cfc4d50a312c44f65a332bf
+#: ../../how-the-platform-works/components/data-service.rst:78
+msgid ""
+"Возвращает количество транзакций, соответствующих условиям поискового "
+"запроса и применённым фильтрам."
+msgstr ""
+
+# 28bc63251807409db40434527876ab6a
+#: ../../how-the-platform-works/components/data-service.rst:89
+msgid "GET /transactions/id/{id}"
+msgstr ""
+
+# 4fead319ff6d45ac8b5b1a9dd46076bd
+#: ../../how-the-platform-works/components/data-service.rst:91
+msgid "Возвращает транзакцию по идентификатору {id}."
+msgstr ""
+
+# fc81ebaa12494be1beaa16d29dd7fdb4
+#: ../../how-the-platform-works/components/data-service.rst:110
+msgid "Наборы токенов"
+msgstr ""
+
+# 3bd2e04005b344078bab930be6f4a9ba
+#: ../../how-the-platform-works/components/data-service.rst:113
+msgid "GET /assets"
+msgstr ""
+
+# 7dbcbc528a34458d8655d68ef2dbbad3
+#: ../../how-the-platform-works/components/data-service.rst:115
+msgid ""
+"Возвращает список доступных в блокчейне наборов токенов (в виде "
+"транзакций выпуска токенов)."
+msgstr ""
+
+# 38f843a8e8644cc78ae7daa1f8e85f35
+#: ../../how-the-platform-works/components/data-service.rst:142
+msgid "Пользователи"
+msgstr ""
+
+# 77511410b488402c9f4f09e834bbd77c
+#: ../../how-the-platform-works/components/data-service.rst:145
+msgid "GET /users"
+msgstr ""
+
+# 7b07e35034a94b3998cf08b8e48a4c23
+#: ../../how-the-platform-works/components/data-service.rst:147
+msgid ""
+"Возвращает список пользователей, соответствующий условиям поискового "
+"запроса и применённым фильтрам."
+msgstr ""
+
+# c683f3824a0a44949a500e1a766df795
+#: ../../how-the-platform-works/components/data-service.rst:173
+msgid "GET /users/{userAddress}"
+msgstr ""
+
+# ddd1190c290d4e04b3c623d938b8600e
+#: ../../how-the-platform-works/components/data-service.rst:175
+msgid "Возвращает информацию о пользователе по его адресу."
+msgstr ""
+
+# 6b2be4e7695e4c2580dc9beebb328535
+#: ../../how-the-platform-works/components/data-service.rst:199
+msgid "Блоки"
+msgstr ""
+
+# 801b75a084bb4fac9331bea8e58ea487
+#: ../../how-the-platform-works/components/data-service.rst:202
+msgid "GET /blocks/{height}"
+msgstr ""
+
+# 4e848c7af1584a0496363c038b1369e5
+#: ../../how-the-platform-works/components/data-service.rst:204
+msgid "Возвращает блок на указанной высоте."
+msgstr ""
+
+# 2d2021c870474ef5b1be21a0cac3509b
+#: ../../how-the-platform-works/components/data-service.rst:243
+msgid "Транзакции с данными"
+msgstr ""
+
+# 7ff60f80aae146c48f23d1bc6fadc380
+#: ../../how-the-platform-works/components/data-service.rst:246
+msgid "GET /api/v1/txIds/{key}"
+msgstr ""
+
+# 51fbb3f8310940e689459f63b051b10f
+#: ../../how-the-platform-works/components/data-service.rst:248
+msgid ""
+"Возвращает список идентификаторов транзакций с данными, содержащих "
+"указанный ключ."
+msgstr ""
+
+# 872c851ab01443d9b86668535b76d6a7
+#: ../../how-the-platform-works/components/data-service.rst:261
+msgid "GET /api/v1/txIds/{key}/{value}"
+msgstr ""
+
+# 4189fcad0ae14ebb8c4b263b07c669d2
+#: ../../how-the-platform-works/components/data-service.rst:263
+msgid ""
+"Возвращает список идентификаторов транзакций с данными, содержащих "
+"указанный ключ и значение."
+msgstr ""
+
+# fb60a7951e3e4e748365af15386c0784
+#: ../../how-the-platform-works/components/data-service.rst:276
+msgid "GET /api/v1/txData/{key}"
+msgstr ""
+
+# 628fe2cbabf84f64abee015a233354dc
+#: ../../how-the-platform-works/components/data-service.rst:278
+msgid "Возвращает тела транзакций с данными, содержащие указанный ключ."
+msgstr ""
+
+# 544e4ade88674de3aee0e639c11e5c6e
+#: ../../how-the-platform-works/components/data-service.rst:302
+msgid "GET /api/v1/txData/{key}/{value}"
+msgstr ""
+
+# 3e1c882de03146d68d84775ffec7cc67
+#: ../../how-the-platform-works/components/data-service.rst:304
+msgid ""
+"Возвращает тела транзакций с данными, содержащие указанный ключ и "
+"значение."
+msgstr ""
+

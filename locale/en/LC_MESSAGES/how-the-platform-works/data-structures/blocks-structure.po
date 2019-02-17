@@ -1,0 +1,307 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 12:53+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 010f8161ec6441f0b942121875295b13
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:2
+msgid "Блоки"
+msgstr ""
+
+# a8ec90bab4ed4d35ad6cd0c778a452e6
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:4
+msgid ""
+"В этом разделе приведена структура хранения блоков в блокчейн-платформе "
+"Восток."
+msgstr ""
+
+# cf8398b9973c4a8aac9b75d287f0071e
+# 839775a17877477daa53948cc133edbe
+# e8bcc31041e240569be62809e2d6c90c
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "#"
+msgstr ""
+
+# 545d954156ca4fa197279f8bb4679ed4
+# bfb774c028184e8fa9fed83c7a212899
+# f78eec930c5b4525a97beae561f7b8a5
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Поле"
+msgstr ""
+
+# d54772a416c9469e9ef20bbfe1365c9b
+# bca59c3be3ee41daaeba522a27b189e4
+# 9279d3f27e364e5488ebecd21d4daf79
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Тип"
+msgstr ""
+
+# 94afc8a7914f44e7b8ba451352227a45
+# 92a860fa3e804f9fbfd671261dca1cf3
+# 0bee0067a8644216850b110a227f02bb
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Размерность"
+msgstr ""
+
+# 8eddec9dd28347668a0f4f0efaca5ac8
+# 237db8a9e19c4960b4c371ed1045ecf8
+# 8c585f0966a84ffa8730d8faff6a2229
+# 42816d0df2d84d05a024f5b786b6db1b
+# 1c9b6114a4104e9782a06829b97e9ca6
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "1"
+msgstr ""
+
+# 1173547c69054914951a3f2a9c0ca6ef
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Version (0x02 for Genesis block, 0x03 for common block)"
+msgstr ""
+
+# 483832c2f3ff4d078cf21ab9bb47f21e
+# d22675c539224a9f904b562771e5cff2
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Byte"
+msgstr ""
+
+# 9b218ef5840f4eeda0e8fa837a3e3702
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "0"
+msgstr ""
+
+# 04cb42bfa14a458683c45a62140da31d
+# 0b09fa97bc924b48864621d8b847f670
+# e0f212889d234ca0823c17324ca11d2e
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "2"
+msgstr ""
+
+# d3140502363c4421949f23912e7aa74b
+# 638f50dffa4a407fa4283711b04c6184
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Timestamp"
+msgstr ""
+
+# 48d77159f9fa4ef185d5f00773a0404e
+# 6ad4043003cc45a6933f7e4c27c3ce6e
+# 54976a7232b14445a21dcf97cea0113f
+# 58f092a92d9542559cfe3583711da11d
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Long"
+msgstr ""
+
+# 636c832a2167432d932f76107b56258d
+# 56549fc78bb349e9b86093f0da6e1805
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "3"
+msgstr ""
+
+# f9df243c4555476fb61c1c76ceddf77f
+# b739bb67f3d54e3883356ca7bb927997
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Parent block signature"
+msgstr ""
+
+# f285e824ff6247eebc67e0e1fd4e969c
+# 102ebf0d9c5f4250ae8e9c54fbdede6a
+# 709412b4197442cdac512b6e4ce46c72
+# 34d50bca5a844c6883cab531e779089c
+# d84151a519df4616b42f3ce5e35d6588
+# f940e3512d714b5583bdef451e10e951
+# b3ed5721c2fd48cc9851eb0ad43874c7
+# 845462b0f0074d41b7440bde97c5395b
+# cbad4ddbf8f84b0f872b9164e129eacd
+# 034af4326f454b10b5304e7b579b06ae
+# 2d7672c45f5141cda3e4ea9d2e4661c4
+# f1b5e08803964352abb29818d5cf4fcd
+# 561e881ee1ef42d3837007c779facb26
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Bytes"
+msgstr ""
+
+# 02b8702189f44e2d8d3d8695bc0a4b24
+# 10aba7965fde43e9859b7aa918253f05
+# 5d65d2da571c459aa056cf4b279a95d5
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "64"
+msgstr ""
+
+# e932e394b5484f518ed90eef161462dc
+# 750cf8a042f14dfe96ee154c7bfbf9df
+# 5c42fc329deb43eab911155860fa3dfb
+# 1f935142726a48559e126574efa40288
+# 8012e301c5fc4d8fb83487d5a5248912
+# 8f7127230b29406981a920cd2f076bbd
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "4"
+msgstr ""
+
+# 92c2a74e673d4c71931409ef992071d4
+# 2ddd15e106f84dd8a73a399c3f59f070
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Consensus block length (always 40 bytes)"
+msgstr ""
+
+# d3c041bf21c745fe97d781285a86e324
+# 5d271a7bb2b44d15873ef32979c83411
+# c1309a2ce95f48409e54562b3f496ba0
+# 5ea7cdec1ee94e5caa4cbc544cf71cb2
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Int"
+msgstr ""
+
+# de288888a06145548ff4bd77a73b9272
+# ceed04a4862f458e97bc5809cbc2d8bf
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "5"
+msgstr ""
+
+# b9a828e288cf4d9d9f7800cb0e60f69e
+# 82e22e66f8c6479c83cf7f2856bbf40f
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Base target"
+msgstr ""
+
+# 1c7a761dde5e45efb045a6622e2997d2
+# 08aa99e5b84f433fa0f96836dbba717c
+# ae16846cdcb543a7be644e4ab45c055b
+# 7f367b6251614662b1cf0e097809b816
+# a32cabe100bd498f8e1ce2e8df212c6a
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "8"
+msgstr ""
+
+# d7e33315b14e4164a9de2bd0e9d99925
+# f55b792cff0d4577bf8afb085c535b9d
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "6"
+msgstr ""
+
+# 5c72d190d6aa481ab14ce1432bd1e445
+# 82e2ab2438314d5095b651d5205f466c
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Generation signature*"
+msgstr ""
+
+# 8e0ad9b4709848e19768e9d66e933b95
+# a8f760f49e3846c191ea3f884db70f9f
+# b05a8f043c7d49ff9edd265ac7dca9e2
+# 012a4990b69547d6932558eba3928df4
+# 7939d70137c84eb2b99e0f6e6567ee91
+# ebe6b9878297476c9e4d232de7a189de
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "32"
+msgstr ""
+
+# 8b2ecec3b3a54986aef64a97cca532b4
+# 49641b1de8aa4ba2974e7c3855434994
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "7"
+msgstr ""
+
+# 2da64c0996b047fa91d9cd358c99f1ba
+# 317143e6e4ff4867803c3c9da4eee01d
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Transactions block length (N)"
+msgstr ""
+
+# 208a8428104048abb443938264ca0151
+# c018bbdc3af44b1795b1893ebb44eeff
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Transaction #1 bytes"
+msgstr ""
+
+# 9d50b9e8ea76403db5945370bf5fb81c
+# 06667c6ddd464e83a337ee6bf141013d
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "M1"
+msgstr ""
+
+# 5466f37ec45949c5baff2955d79a1fe4
+# 258f17e950fc435ebb53bfda4b6a2b3a
+# 7720ff70f5d342fe8200cc9303b3fac1
+# 0d3e94f6bfdf479a9a09ea2eb3921720
+# e30a517004c148f9bf343409caaa9b2a
+# 3bcf3624bb4743ddbe3ac15e628b869e
+# 71230d57d3fe4637be3a355b51471fbb
+# 31782a52e23c4f7693d00f53030db44f
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "..."
+msgstr ""
+
+# 56578f362c2d4555af3ca6df05903371
+# 096cb214e8cd4ba6abaeefe22668ee33
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "8 + (K - 1)"
+msgstr ""
+
+# ffbb0b291b6d440bb33a6bdfed96abae
+# a70228d2862b4c5dad12598d1911c7b8
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Transaction #K bytes"
+msgstr ""
+
+# 9e86f9ebc98347d8b8991b3959c9c652
+# afc0ac42c802400bb34c639d6c088007
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "MK"
+msgstr ""
+
+# 6a4b3884e8a44d2889e1df94a4697ed7
+# 617a6ff267304d2b989167f23cfe0c04
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "9 + (K - 1)"
+msgstr ""
+
+# f2674ff5a45344588e11492313c0734d
+# 39eb68d698244c7ab0fd2a9128acea4d
+# 781da107aaee4c4a99019833482cc4ee
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Generator's public key"
+msgstr ""
+
+# 73f4ed9cd796416aa289b464d1c01ab4
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "10 + (K - 1)"
+msgstr ""
+
+# 2bf1e1d5cd4a448ebed93e6bd0c7cd0f
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Block's signature"
+msgstr ""
+
+# eabaef415272414e9724db602ae80013
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:23
+msgid ""
+"Генерирующая подпись (Generation signature) вычисляется  на основе хеша "
+"(Blake2b256) от следующих полей:"
+msgstr ""
+
+# b17482902ddb455a8bd0c722f73f197f
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Previous block's generation signature"
+msgstr ""
+
+# d6c63014297a40ab9fdd6dce96125641
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:32
+msgid "Подпись блока вычисляется на основе следующих данных:"
+msgstr ""
+
+# fc0b5a395f1e4b1a8a7a073a572ee379
+#: ../../how-the-platform-works/data-structures/blocks-structure.rst:1
+msgid "Version (0x02 for Genesis block,, 0x03 for common block)"
+msgstr ""
+

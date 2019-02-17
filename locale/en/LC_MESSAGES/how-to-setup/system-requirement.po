@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, vostok
+# This file is distributed under the same license as the Vostok package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vostok master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 12:53+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# b79693e0b82a4330ae388aaeb398c7fd
+#: ../../how-to-setup/system-requirement.rst:2
+msgid "Системные требования"
+msgstr ""
+
+# 8d89740aae044a4ca7380ee2dd05f2b1
+#: ../../how-to-setup/system-requirement.rst:4
+msgid "Ниже представлены аппартные и системные требования."
+msgstr ""
+
+# 7c396ff4d838483eaddc5e97f7244443
+#: ../../how-to-setup/system-requirement.rst:1
+msgid "Вариант"
+msgstr ""
+
+# 9ce9a7034da24429abd545210cd97f9e
+#: ../../how-to-setup/system-requirement.rst:1
+msgid "vCPU"
+msgstr ""
+
+# ef04ad14222b4b4c842aa9b7878fb59a
+#: ../../how-to-setup/system-requirement.rst:1
+msgid "RAM"
+msgstr ""
+
+# e0d3373d1eae4ffcb2dbccc4fa351cfa
+#: ../../how-to-setup/system-requirement.rst:1
+msgid "SSD"
+msgstr ""
+
+# 26642096fa2e4462b24563db4630bb2d
+#: ../../how-to-setup/system-requirement.rst:1
+msgid "Режим работы JVM"
+msgstr ""
+
+# d40b0569f72a4952a007e65593300b84
+#: ../../how-to-setup/system-requirement.rst:1
+msgid "Минимальные требования"
+msgstr ""
+
+# cb150504f2bd463bb7023617999d546e
+#: ../../how-to-setup/system-requirement.rst:1
+msgid "1"
+msgstr ""
+
+# b49b9123d85c4585bd0e1d23eaecd170
+#: ../../how-to-setup/system-requirement.rst:1
+msgid "3Gb"
+msgstr ""
+
+# 34d4a75c9f154dd5b14244de8485e965
+#: ../../how-to-setup/system-requirement.rst:1
+msgid "30Gb"
+msgstr ""
+
+# 7458627114f44576ac6e1de845f95e4d
+#: ../../how-to-setup/system-requirement.rst:1
+msgid "java -Xmx3072M -jar"
+msgstr ""
+
+# e647d818cece47f290723aa35196eef2
+#: ../../how-to-setup/system-requirement.rst:1
+msgid "Рекомендуемые требования"
+msgstr ""
+
+# 48fa4ce3c1d64a68b6ce1ed6cc508865
+#: ../../how-to-setup/system-requirement.rst:1
+msgid "2+"
+msgstr ""
+
+# e3c597a20f4f481998b0d62b0d4aa654
+#: ../../how-to-setup/system-requirement.rst:1
+msgid "4+ Gb"
+msgstr ""
+
+# 272b2c0660c84b75be9ebcdd2a803b8c
+#: ../../how-to-setup/system-requirement.rst:1
+msgid "30+ Gb"
+msgstr ""
+
+# 2a4b12d728fd416cb4d4799b1a843497
+#: ../../how-to-setup/system-requirement.rst:1
+msgid "java -Xmx4096M -jar"
+msgstr ""
+
+# 14f56bdfa28849f8b0d5b184d58bab0c
+#: ../../how-to-setup/system-requirement.rst:13
+msgid "\"Xmx\" - флаг, определяющий максимальный размер доступной для JVM памяти."
+msgstr ""
+
+# b3ef2342c6344d788e594f4e7213dfb2
+#: ../../how-to-setup/system-requirement.rst:15
+msgid "**Требования к окружению для ноды**"
+msgstr ""
+
+# 8d2bd3f1244b43c5a6006b6c211a1ee1
+#: ../../how-to-setup/system-requirement.rst:17
+msgid ""
+"`JRE 1.8 (64-bit) "
+"<http://www.oracle.com/technetwork/java/javase/downloads/2133155>`_"
+msgstr ""
+
+# 952096fe8f734d5285fa30e62b4101dc
+#: ../../how-to-setup/system-requirement.rst:18
+msgid "`CryptoPro JCP 2.0 <https://www.cryptopro.ru/products/csp/jcp>`_"
+msgstr ""
+
+# d99a42bfe2854661ab4cac43112a0f4f
+#: ../../how-to-setup/system-requirement.rst:20
+msgid "**Требования к окружению для корпоративного клиента и дата-сервиса**"
+msgstr ""
+
+# 5b232ec7c72141448a8ca24d3fc8f930
+#: ../../how-to-setup/system-requirement.rst:22
+msgid "`Docker CE <https://docs.docker.com/install/linux/docker-ce/ubuntu/>`_"
+msgstr ""
+
+# 7e255e4983854e98abde2c5fbe7eeba7
+#: ../../how-to-setup/system-requirement.rst:23
+msgid "`Docker-compose <https://docs.docker.com/compose/install/>`_"
+msgstr ""
+
+# 55f8ce4c5dfc467fa30abb3154e53cc6
+#: ../../how-to-setup/system-requirement.rst:24
+msgid "`node.js <https://nodejs.org/en/download/>`_ LTS версии 10+"
+msgstr ""
+
+# b66280c864534dc79275ad9df5a16596
+#: ../../how-to-setup/system-requirement.rst:25
+msgid "`npm <https://www.npmjs.com/>`_ 6+"
+msgstr ""
+
