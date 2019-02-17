@@ -1,1 +1,1 @@
-cat conf.py
+sphinx-build -b html . _build/html
