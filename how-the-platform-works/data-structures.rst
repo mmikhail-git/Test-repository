@@ -1,6 +1,6 @@
 .. _data-structures:
 
-Структура объектов платформы
+Структура объектов
 ========================================
 
 
@@ -10,3 +10,4 @@
 
    data-structures/blocks-structure
    data-structures/transactions-structure
+   data-structures/network-messages

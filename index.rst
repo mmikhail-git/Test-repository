@@ -8,7 +8,6 @@
 
    overview/overview
    overview/links
-   overview/roadmap
 
 
 .. toctree::
@@ -35,6 +34,8 @@
    how-to-setup/system-requirement
    how-to-setup/install-node
    how-to-setup/configuration-node
+   how-to-setup/install-client
+   how-to-setup/docker-configuration
 
 
 .. toctree::

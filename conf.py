@@ -39,9 +39,12 @@ extensions = ['sphinx.ext.autodoc',
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
-    'sphinx.ext.imgmath',
+    #'sphinx.ext.imgmath',
     'sphinx.ext.ifconfig',
-    'sphinx.ext.viewcode']
+    'sphinx.ext.viewcode',
+    'sphinx.ext.graphviz',
+    'sphinx.ext.mathjax',
+    ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -136,7 +139,7 @@ def setup(app):
     #app.add_stylesheet('css/custom.css')
     app.add_stylesheet('theme_override.css')
 
-
+# html_logo = 'img/logo-1.png'
 
 # -- Options for HTMLHelp output ------------------------------------------
 
@@ -159,7 +162,7 @@ man_pages = [
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
-#'papersize': 'letterpaper',
+#'papersize': 'letterpaper',S
 
 # The font size ('10pt', '11pt' or '12pt').
 #'pointsize': '10pt',
@@ -168,7 +171,7 @@ latex_elements = {
 'preamble': '\\usepackage[utf8]{inputenc}',
 'babel': '\\usepackage[russian]{babel}',
 'cmappkg': '\\usepackage{cmap}',
-'fontenc': '\usepackage[T1,T2A]{fontenc}',
+'fontenc': '\\usepackage[T1,T2A]{fontenc}',
 'utf8extra':'\\DeclareUnicodeCharacter{00A0}{\\nobreakspace}',
 }
 
@@ -182,7 +185,7 @@ latex_documents = [
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-latex_logo = 'img/logo-1.png'
+latex_logo = '_static/img/logo.png'
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
@@ -202,4 +205,4 @@ latex_logo = 'img/logo-1.png'
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
-#intersphinx_mapping = {'https://docs.python.org/': None
+# intersphinx_mapping = {'https://docs.python.org/': None

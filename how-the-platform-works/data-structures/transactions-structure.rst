@@ -1,30 +1,37 @@
-Структура транзакций
+Транзакции
 =====================
 
 В этом разделе приведена структура хранения транзакций в блокчейн-платформе Восток.
 Для некоторых типов транзакций введено версионирование.
 
 .. table:: Типы транзакций
-===   ==============================================
-№	  Transaction type
-===   ==============================================
-1	  Genesis Transaction
+===   ========================================================================================================================================================================================================
+№	  Тип транзакции
+===   ========================================================================================================================================================================================================
+1	  `Genesis transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/LgdxnrTMbNmGJ7a1XB62wtaubm7aeDhkrWSPE5jpLENWpsGY1XeHQWVqkf5KywZTxBrn6sGJksgsdM2BCcTy52R>`_
 2	  Payment Transaction (не используется)
-3	  Issue Transaction
-4	  Transfer Transaction
-5	  Reissue Transaction
-6	  Burn Transaction
-7	  Exchange Transaction
-8	  LeaseTransaction
-9	  LeaseCancel Transaction
-10	  CreateAlias Transaction
-11	  MassTransfer Transaction
-12	  Data Transaction
+3	  `Issue Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/B4cFhfhTKhHLzpSKL4J6QgaApYorXzWfqjcx8q5Mh33w>`_
+4	  `Transfer Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/3jDSuDCxnYakMezZ8KeH7TYtJrNM6RLpAvP6hrDFN3gE>`_
+5	  `Reissue Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/4G7sWdcjWrkAemCt7z549m9vJbXS6i8ha6XCBN27ceXz>`_
+6	  `Burn Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/Bo7dde5ogLy5SWkexfiT3jNcZkBiSdq4GyRNPHso5WfV>`_
+7	  Exchange Transaction (не используется)
+8	  `LeaseTransaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/Ewq1JmSVs38FBnEXK8AhdKRBFP9TP6mwbwm6ySfsBwCH>`_
+9	  `LeaseCancel Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/2SgUqYV5XPGzMwstSuwwtLe5WrFY4VEt2iGHZ5VLuv4B>`_
+10	  `CreateAlias Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/FheJMKF3b2nbzatoNXHyfUmUoR6x7sBJKLc7Yc2Sa4bm>`_
+11	  `MassTransfer Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/9Bu9jx2VVr4gRy9R2k3t7LmUFyv53UjnwwuCQE3XwyKu>`_
+12	  `Data Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/Et6mGUM7A9kSwHx6sxvUr1faJJS18hqkt9qT4jPGeuJv>`_
 13	  SetScript Transaction
-14	  SponsoredFee Transaction
-101   Permission Transaction (for genesis block)
-102   Permission Transaction
-===   ==============================================
+14	  SponsoredFee Transaction (не используется)
+15    SetAssetScriptTransaction
+101   `Permission Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/5eduZZDRsuh24xcXE1w8ZXmg51YxVebXwuZy5E2Rwbtw6mQMhPmbiJEoaARMFT5UvuxPbiBTzwHDyW3zefEb44P2>`_ (for genesis block) 
+102   `Permission Transaction <https://1.partner-net.vostoknodes.com:8443/transactions/info/B8YHUmkqdD1xfcEVYnNGMYzWcrG7fgdvA6Em1Mg89Voz>`_
+103   CreateContractTransaction
+104   CallContractTransaction
+105   ExecutedContractTransaction
+===   ========================================================================================================================================================================================================
+
+
+
 
 
 1. Genesis transaction
@@ -257,7 +264,7 @@
    Minimal fee in assets*,Long
    Fee,Long
    Timestamp,Long
-   Proofs**,Bytes
+   Proofs,Bytes
 
 
 14. SponsoredFee Transaction
@@ -274,21 +281,21 @@
    Minimal fee in assets*,Long
    Fee,Long
    Timestamp,Long
-   Proofs**,Bytes
+   Proofs,Bytes
 
-101. Permission Transaction (for genesis block)
+101. PermissionTransaction (for genesis block)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :header: "Field","Type"
    :widths: 45, 15
 
-    Transaction, Type
+    Transaction type,Byte
     Target Address Or Alias object, Byte
     Timestamp,timestamp
     Role, Byte
 
-102. Permission Transaction
+102. PermissionTransaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -296,7 +303,7 @@
    :widths: 45, 15
 
     Empty, Byte
-    Transaction, Type
+    Transaction type,Byte
     Version, Byte
     Sender's public key,Bytes
     Target Address Or Alias object, Byte
@@ -304,4 +311,97 @@
     OpType (Add/Remove), Byte
     Role, Byte
     [Optional] Due timestamp, timestamp
+
+.. _CreateContractTransaction:
+
+103. CreateContractTransaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header: "Field","Type"
+   :widths: 45, 15
+
+   Transaction type,Byte
+   Sender's public key, Bytes
+   Fee,Long
+   Timestamp,timestamp
+   Proofs,Bytes
+   Version, Byte
+   Image,Bytes
+   ImageHash,Bytes
+   params, Bytes
+
+.. _CallContractTransaction:   
+   
+104. CallContractTransaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header: "Field","Type"
+   :widths: 45, 15
+
+   Transaction type,Byte
+   Sender's public key, Bytes
+   Fee,Long
+   Timestamp,timestamp
+   Proofs,Bytes
+   Version, Byte
+   contractId,Bytes
+   params, Bytes
+
+.. _ExecutedContractTransaction:
+
+105. ExecutedContractTransaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header: "Field","Type"
+   :widths: 45, 15
+
+   Transaction type,Byte
+   Sender's public key, Bytes
+   Fee,Long
+   Timestamp,timestamp
+   Proofs,Bytes
+   Version, Byte
+   tx, Bytes 
+   results, Bytes
+
+tx represents a set of CreateContract Transaction fields.
+
+.. _DisableContractTransaction:
+
+106. DisableContractTransaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header: "Field","Type"
+   :widths: 45, 15
+
+   Transaction type,Byte
+   Sender's public key, Bytes
+   Fee,Long
+   Timestamp,timestamp
+   Proofs,Bytes
+   Version, Byte
+   contractId,Bytes
+   
+.. _UpdateContractTransaction:
+
+107. UpdateContractTransaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header: "Field","Type"
+   :widths: 45, 15
+
+   Transaction type,Byte
+   Sender's public key, Bytes
+   Fee,Long
+   Timestamp,timestamp
+   Proofs,Bytes
+   Version, Byte
+   Image,Bytes
+   ImageHash,Bytes
+   params, Bytes
 
